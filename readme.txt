@@ -54,6 +54,9 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.0.4 - 05.04.2021 =
+* Fixed top margins in full-width page, default page
+* add CSS rules for defaul page full width and full width with title layouts 
 
 = 1.0.3 - 03.04.2021 =
 * Fixed margins in footer widget areas

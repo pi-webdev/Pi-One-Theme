@@ -16,7 +16,7 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-					<div id="content" class="site-content">
+					<div id="content" class="full-width">
 						
 							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-theme' ) ); ?>
 							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'pi-theme' ), 'after' => '</div>' ) ); ?>

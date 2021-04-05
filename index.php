@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 get_header();
 ?>
-<div id="content" class="site-content">
+<div id="content" class="default-page">
 <main role="main" class="container">
   <div class="row">
     <div class="col blog-main">

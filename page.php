@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-<div id="content" class="default-page">
+<div id="content" class="site-content">
   <div class="container">
 	<div class="row">
 	  <div class="col">

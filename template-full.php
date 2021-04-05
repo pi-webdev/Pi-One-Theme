@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 get_header(); ?>
-<div id="content" class="site-content">
+<div id="content" class="full-width-title">
 <div class="container">
 	
 			<?php while ( have_posts() ) : the_post(); ?>
