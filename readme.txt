@@ -1,0 +1,69 @@
+=== Pi-One Bootstrap framework theme ===
+
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+Requires at least: 4.0
+Tested up to: 5.6.2
+
+Copyright (c) 2021 by Pi-WEB (https://piunoff.eu/)
+This Theme is distributed under the terms of the GNU GPL.
+
+Theme page: https://piunoff.eu/pi-theme
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+
+ WordPress framework theme with clear code based on Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Ionicons . This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page templates includes Right-sidebar (default page template), Full-Width page with title, Full width page without title and container. Other features - Currently using Bootstrap v4.6.0. , Widgetized footer, header and above content areas, WooCommerce ready, Compatible with Contact Form 7, Visual Composer, Elementor Page builders. Easy integration with Bootstrap studio created sites.
+
+
+This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress project and you are allowed to remove Copyright link at the footer section or do whatever you want. Your feedback on this WordPress framework theme will be highly appreciated.
+
+Page templates
+* Right-sidebar (default page template)
+* Full-Width page with title and container
+* Full-width page without title and container
+
+Other features:
+* Built in Bootstrap v4.6.0
+* Widgetized header and footer area
+* WooCommerce ready
+* Compatible with Contact Form 7
+* Bootstrap studio websites integration
+* Compatible with page builders (Elementor, VC)
+
+
+This theme will be an active project which we will update from time to time. Check this page regularly for the updates.
+
+== Installation ==
+
+1. In your admin panel, go to Appearance > Themes and click the Add New button.
+2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
+3. Click Activate to use your new theme right away.
+
+
+
+== Credits ==
+
+* Based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc., [GPLv2 or later](https://www.gnu.org/licenses/gpl-2.0.html)
+* normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
+* Bootstrap http://getbootstrap.com, (C) 2011-2015 Twitter, Inc., [MIT] (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+* WP Bootstrap Navwalker https://github.com/wp-bootstrap/wp-bootstrap-navwalker, [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+* Ionicons, v2.0.0 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/ https://twitter.com/benjsperry  https://twitter.com/ionicframework MIT License: https://github.com/driftyco/ionicons
+* Theme options by Bootswatch v4.0.0 Homepage: https://bootswatch.com Copyright 2012-2018 Thomas Park Licensed under MIT Based on Bootstrap
+
+== Changelog ==
+
+
+= 1.0.3 - 03.04.2021 =
+* Fixed margins in footer widget areas
+
+= 1.0.2 - 01.04.2021 =
+* Add default Thumbnails 
+
+= 1.0.1 - 31.03.2021  =
+* Forms background color fix 
+* Submit button display CSS fix
+
+= 1.0 - 01.03.2021 =
+* Initial release
