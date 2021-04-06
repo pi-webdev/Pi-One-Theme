@@ -118,7 +118,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     ?>
                     </p>
                  </div>
-                 <div data-aos="fade-right" data-aos-offset="100px" data-aos-delay="700"><?php if( get_theme_mod( 'pi_button_display', 'show' ) == 'show' ) : ?>
+                 <div data-aos="fade-up" data-aos-offset="100px" data-aos-delay="800" data-aos-duration="700"><?php if( get_theme_mod( 'pi_button_display', 'show' ) == 'show' ) : ?>
                         <a href="<?php echo esc_html( get_theme_mod( 'pi_button_url', '' ) ) ?>" class="btn btn-primary btn-lg mx-auto mt-5 mb-5" target="_blank"><?php echo esc_html( get_theme_mod( 'pi_button_text', 'Touch me' ) ) ?></a>
                         <?php endif ?>
                     </div>
