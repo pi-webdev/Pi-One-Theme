@@ -7,13 +7,13 @@ if ( is_active_sidebar( 'footer-1' ) || is_active_sidebar( 'footer-2' ) || is_ac
            <div class="container">
                 <div class="row">
                     <?php if ( is_active_sidebar( 'footer-1' )) : ?>
-                        <div class="col-12 col-md-4 p-0"><div class="card m-3"><div class="card-body "><?php dynamic_sidebar( 'footer-1' ); ?></div></div></div>
+                        <div class="col-12 col-md-4 p-0"><div class="card m-3 m-md-4"><div class="card-body "><?php dynamic_sidebar( 'footer-1' ); ?></div></div></div>
                     <?php endif; ?>
                     <?php if ( is_active_sidebar( 'footer-2' )) : ?>
-                        <div class="col-12 col-md-4 p-0"><div class="card m-3 ml-md-0 mr-md-0"><div class="card-body"><?php dynamic_sidebar( 'footer-2' ); ?></div></div></div>
+                        <div class="col-12 col-md-4 p-0"><div class="card m-3 ml-md-0 mr-md-0 my-md-4"><div class="card-body"><?php dynamic_sidebar( 'footer-2' ); ?></div></div></div>
                     <?php endif; ?>
                     <?php if ( is_active_sidebar( 'footer-3' )) : ?>
-                        <div class="col-12 col-md-4 p-0"><div class="card m-3"><div class="card-body "><?php dynamic_sidebar( 'footer-3' ); ?></div></div></div>
+                        <div class="col-12 col-md-4 p-0"><div class="card m-3 m-md-4"><div class="card-body "><?php dynamic_sidebar( 'footer-3' ); ?></div></div></div>
                     <?php endif; ?>
                 </div>
             </div>        
