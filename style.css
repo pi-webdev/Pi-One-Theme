@@ -310,6 +310,7 @@ label{
   background-size: cover!important;
   background-repeat: no-repeat!important;
   overflow: hidden;
+  margin-bottom: -5rem;
 }
 
 body:not(.theme-preset-active) #sub-header h1 {
@@ -748,10 +749,6 @@ a img.aligncenter {
 #content.full-width-title {
   padding-bottom: 3.75rem;
   padding-top: 7.5rem;
-}
-
-#content.default-page{
-padding-top: 7.5rem;
 }
 
 .sticky .entry-title::before {
