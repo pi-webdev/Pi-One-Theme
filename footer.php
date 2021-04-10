@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
         
                 <div class="col-12 mt-5"> &copy; <?php echo date('Y'); ?> <?php echo '<a href="'.home_url().'">'.get_bloginfo('name').'</a>'; ?>
                 <span class="sep"> | </span>
-                <a class="credits" href="https://piunoff.eu/pi-theme/" target="_blank" title="WordPress Technical Support" alt="Bootstrap WordPress Theme"><?php echo esc_html__('Bootstrap WordPress Theme','pi-theme'); ?></a></div>
+                <a class="credits" href="https://piunoff.eu/pi-theme/" target="_blank" title="Pi-One Technical Support"><?php echo esc_html__('Pi-One WordPress Theme','pi-theme'); ?></a></div>
     
 </footer><!-- #colophon -->
 </div><!-- #page -->
