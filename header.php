@@ -37,7 +37,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-theme' ); ?></a>
-    <header id="masthead" class="site-header fixed-top <?php echo pi_theme_bg_class(); ?>" role="banner">
+    <header id="masthead" class="site-header fixed-top <?php echo pi_theme_bg_class(); ?>">
     <?php get_template_part( 'sidebar-header');?>
             <div class="container-fluid">
               <nav class="navbar navbar-expand-xl p-0">
