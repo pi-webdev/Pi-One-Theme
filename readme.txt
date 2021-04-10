@@ -54,6 +54,10 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.0.6 - 10.04.2021 =
+* Fixed some CSS, HTML Erros and Warnings 
+
+
 = 1.0.5 - 06.04.2021 =
 * Fixed responsive wiev problen in footer widget section 
 * add CSS rules for sub-header section 
