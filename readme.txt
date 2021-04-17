@@ -51,6 +51,7 @@ This theme will be an active project which we will update from time to time. Che
 * WP Bootstrap Navwalker https://github.com/wp-bootstrap/wp-bootstrap-navwalker, [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 * Ionicons, v2.0.0 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/ https://twitter.com/benjsperry  https://twitter.com/ionicframework MIT License: https://github.com/driftyco/ionicons
 * Theme options by Bootswatch v4.0.0 Homepage: https://bootswatch.com Copyright 2012-2018 Thomas Park Licensed under MIT Based on Bootstrap
+* Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
 
 == Changelog ==
 
