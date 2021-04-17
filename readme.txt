@@ -55,6 +55,9 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.0.7 - 17.04.2021 =
+* add new screenshot and default header image with Public Licence 
+
 = 1.0.6 - 10.04.2021 =
 * Fixed some CSS, HTML Erros and Warnings 
 
