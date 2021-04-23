@@ -90,7 +90,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="sub-header" style="background: url(<?php echo get_custom_header ()->url; ?>)" >
             <div class="container sb-content">
-            <h1 class="text-center" data-aos="fade-up" data-aos-duration="700" data-aos-once="true">
+            <h1 class="text-center">
                     <?php
                     if(get_theme_mod( 'header_banner_title_setting' )){
                         echo esc_attr( get_theme_mod( 'header_banner_title_setting' ) );
@@ -100,7 +100,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     ?>
                 </h1>
                 <div class="col-8 offset-2">
-                  <h2 class="text-center" data-aos="fade-up" data-aos-duration="700" data-aos-once="true" id="subtitle">
+                  <h2 class="text-center">
                     <?php
                     if(get_theme_mod( 'header_banner_subtitle_setting' )):?>
                         <?php echo esc_attr( get_theme_mod( 'header_banner_subtitle_setting' ) );?>
@@ -118,7 +118,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     ?>
                     </p>
                  </div>
-                 <div data-aos="fade-up" data-aos-offset="100px" data-aos-delay="800" data-aos-duration="700"><?php if( get_theme_mod( 'pi_button_display', 'show' ) == 'show' ) : ?>
+                 <div><?php if( get_theme_mod( 'pi_button_display', 'show' ) == 'show' ) : ?>
                         <a href="<?php echo esc_html( get_theme_mod( 'pi_button_url', '' ) ) ?>" class="btn btn-primary btn-lg mx-auto mt-5 mb-5" target="_blank"><?php echo esc_html( get_theme_mod( 'pi_button_text', 'Touch me' ) ) ?></a>
                         <?php endif ?>
                     </div>
