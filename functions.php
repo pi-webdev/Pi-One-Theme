@@ -274,7 +274,6 @@ function pi_theme_scripts() {
 // load theme styles
 // load BS styles
 wp_enqueue_style( 'pi-theme-style', get_stylesheet_uri() );
-wp_enqueue_style('pi-theme-AOS_animate', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css' );
 if(get_theme_mod( 'theme_option_setting' ) && get_theme_mod( 'theme_option_setting' ) !== 'default') {
 	wp_enqueue_style( 'pi-theme-default'.get_theme_mod( 'theme_option_setting' ), get_template_directory_uri() . '/inc/css/presets/theme-option/'.get_theme_mod( 'theme_option_setting' ).'.css', false, '' );
 }
@@ -320,7 +319,6 @@ if ( get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
 	wp_enqueue_script('pi-theme-bootstrap', get_template_directory_uri() . '/inc/js/bootstrap.bundle.min.js', array(), '', true );
 
 }
-wp_enqueue_script('AOSjs', 'https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js', false, null, true);
 wp_enqueue_script('ionicons', 'https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js', false, null, true);
 wp_enqueue_script('pi-theme-theme', get_template_directory_uri() . '/inc/js/theme-script.min.js', false, null, true );
 wp_enqueue_script( 'pi-theme-skip-link-focus-fix', get_template_directory_uri() . '/inc/js/skip-link-focus-fix.min.js', array(), '', true );
@@ -342,10 +340,7 @@ if ( 'preconnect' === $relation_type && get_theme_mod( 'cdn_assets_setting' ) ==
 		'href'        => 'https://cdn.jsdelivr.net/',
 		'crossorigin' => 'anonymous',
 	];
-	$hints[] = [
-		'href'        => 'https://use.fontawesome.com/',
-		'crossorigin' => 'anonymous',
-	];
+
 	$hints[] = [
 		'href'        => 'https://unpkg.com/',
 		'crossorigin' => 'anonymous',
