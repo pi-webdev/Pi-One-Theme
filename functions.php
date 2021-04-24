@@ -249,7 +249,7 @@ add_action( 'widgets_init', 'pi_theme_widgets_init' );
 /*----Start Global theme scripts ---*/
 
 
-function pi_theme_scripts() {
+function pi_one_scripts() {
 
 	// load bootstrap css
     if ( get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
@@ -314,14 +314,14 @@ if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 	wp_enqueue_script( 'comment-reply' );
 }
 }
-add_action( 'wp_enqueue_scripts', 'pi_theme_scripts' );
+add_action( 'wp_enqueue_scripts', 'pi_one_scripts' );
 
 
 
 /**
 * Add Preload for CDN scripts and stylesheet
 */
-function pi_theme_preload( $hints, $relation_type ){
+function pi_one_preload( $hints, $relation_type ){
 if ( 'preconnect' === $relation_type && get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
 	$hints[] = [
 		'href'        => 'https://cdn.jsdelivr.net/',
@@ -337,7 +337,7 @@ if ( 'preconnect' === $relation_type && get_theme_mod( 'cdn_assets_setting' ) ==
 return $hints;
 } 
 
-add_filter( 'wp_resource_hints', 'pi_theme_preload', 10, 2 );
+add_filter( 'wp_resource_hints', 'pi_one_preload', 10, 2 );
 /*----End global scripts--/
 
 /**
