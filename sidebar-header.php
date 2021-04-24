@@ -1,12 +1,6 @@
 <?php
 
-/*if ( is_active_sidebar( 'text-nav' ) ) {?>
-                    <?php if ( is_active_sidebar( 'text-nav' )) : ?>
-                        <div class="top-nav pb-3"><?php dynamic_sidebar( 'text-nav' ); ?></div>
-                    <?php endif; ?>
-                
 
-<?php }*/
 if ( is_active_sidebar( 'contact-nav' ) || is_active_sidebar( 'social-nav' ) || is_active_sidebar( 'cart-nav' ) ) {?>
     
        <div class="container-fluid">

@@ -1,8 +1,8 @@
 === Pi-One Bootstrap framework theme ===
 
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
-Requires at least: 4.0
-Tested up to: 5.6.2
+Requires at least: 5.3
+Tested up to: 5.7
 
 Copyright (c) 2021 by Pi-WEB (https://piunoff.eu/)
 This Theme is distributed under the terms of the GNU GPL.

@@ -101,20 +101,7 @@ if ( ! function_exists( 'pi_theme_setup' ) ) :
 		}
 		add_action( 'admin_init', 'pi_theme_add_editor_styles' );
 
-		/**
-		 * Add support for core custom logo.
-		 *
-		 * @link https://codex.wordpress.org/Theme_Logo
-		 */
-		/*add_theme_support(
-			'custom-logo',
-			array(
-				'height'      => 100,
-				'width'       => 250,
-				'flex-width'  => true,
-				'flex-height' => true,
-			)
-		);*/
+		
 	}
 endif;
 add_action( 'after_setup_theme', 'pi_theme_setup' );
