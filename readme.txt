@@ -7,7 +7,7 @@ Tested up to: 5.7
 Copyright (c) 2021 by Pi-WEB (https://piunoff.eu/)
 This Theme is distributed under the terms of the GNU GPL.
 
-Theme page: https://piunoff.eu/pi-theme
+Theme page: https://piunoff.eu/pi-one
 
 License: GNU General Public License v2.0
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

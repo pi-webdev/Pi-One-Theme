@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 ?>
@@ -14,7 +14,7 @@
 			the_content();
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-theme' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
 				'after'  => '</div>',
 			) );
 		?>

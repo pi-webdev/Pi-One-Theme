@@ -4,7 +4,7 @@
  *
  * @link https://jetpack.com/
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 /**
@@ -33,7 +33,7 @@ function pione_theme_jetpack_setup() {
 		'jetpack-content-options',
 		array(
 			'post-details' => array(
-				'stylesheet' => 'pi-theme-style',
+				'stylesheet' => 'pi-one-style',
 				'date'       => '.posted-on',
 				'categories' => '.cat-links',
 				'tags'       => '.tags-links',

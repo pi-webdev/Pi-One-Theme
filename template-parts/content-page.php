@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 ?>
@@ -23,7 +23,7 @@
 			the_content();
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-theme' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -35,7 +35,7 @@
 				edit_post_link(
 					sprintf(
 						/* translators: %s: Name of current post */
-						esc_html__( 'Edit %s', 'pi-theme' ),
+						esc_html__( 'Edit %s', 'pi-one' ),
 						the_title( '<span class="screen-reader-text">"', '"</span>', false )
 					),
 					'<span class="edit-link">',

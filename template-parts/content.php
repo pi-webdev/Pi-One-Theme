@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 
@@ -34,11 +34,11 @@
         if ( is_single() ) :
 			the_content();
         else :
-            the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-theme' ) );
+            the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-one' ) );
         endif;
 
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-theme' ),
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
 				'after'  => '</div>',
 			) );
 		?>
