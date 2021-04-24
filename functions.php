@@ -362,13 +362,14 @@ require get_template_directory() . '/inc/customizer.php';
 
 /**load TGM */
 require get_template_directory() . '/inc/tgm/tgmconnect.php';
+
 /**
  * Register Custom Navigation Walker
  */
-function register_navwalker(){
+function register_pi_one_navigation(){
 	require_once get_template_directory() . '/inc/class-wp-bootstrap-navwalker.php';
 }
-add_action( 'after_setup_theme', 'register_navwalker' );
+add_action( 'after_setup_theme', 'register_pi_one_navigation' );
 
 function pi_theme_nav_menu_args( $args ) {
     return array_merge( $args, array(
