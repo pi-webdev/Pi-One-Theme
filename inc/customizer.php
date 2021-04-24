@@ -1,8 +1,8 @@
 <?php
 /**
- * pi-theme Theme Customizer
+ * pi-one Theme Customizer
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 /**
@@ -22,8 +22,8 @@ function pione_theme_customize_register( $wp_customize ) {
     $wp_customize->add_section(
         'typography',
         array(
-            'title' => __( 'Preset Styles', 'pi-theme' ),
-            'description' => __( 'This is a section for the typography', 'pi-theme' ),
+            'title' => __( 'Preset Styles', 'pi-one' ),
+            'description' => __( 'This is a section for the typography', 'pi-one' ),
             'priority' => 20,
         )
     );
@@ -36,7 +36,7 @@ function pione_theme_customize_register( $wp_customize ) {
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'theme_option_setting', array(
-        'label' => __( 'Theme Option', 'pi-theme' ),
+        'label' => __( 'Theme Option', 'pi-one' ),
         'section'    => 'typography',
         'settings'   => 'theme_option_setting',
         'type'    => 'select',
@@ -74,7 +74,7 @@ function pione_theme_customize_register( $wp_customize ) {
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'preset_style_setting', array(
-        'label' => __( 'Typography', 'pi-theme' ),
+        'label' => __( 'Typography', 'pi-one' ),
         'section'    => 'typography',
         'settings'   => 'preset_style_setting',
         'type'    => 'select',
@@ -95,14 +95,14 @@ function pione_theme_customize_register( $wp_customize ) {
 
     /*Banner*/
     $wp_customize->add_section( 'header_image', array(
-            'title' => __( 'Header Banner', 'pi-theme' ),
+            'title' => __( 'Header Banner', 'pi-one' ),
             'priority' => 40,
         )
     );
 
 
     $wp_customize->add_control( 'header_img', array(
-            'label' => __( 'Header Image', 'pi-theme' ),
+            'label' => __( 'Header Image', 'pi-one' ),
             'section' => 'header_images',
             'type' => 'text',
         )
@@ -117,39 +117,39 @@ function pione_theme_customize_register( $wp_customize ) {
             $wp_customize,
             'header_bg_color',
             array(
-                'label'      => __( 'Header Banner Background Color', 'pi-theme' ),
+                'label'      => __( 'Header Banner Background Color', 'pi-one' ),
                 'section'    => 'header_image',
                 'settings'   => 'header_bg_color_setting',
             ) )
     );
 
     $wp_customize->add_setting( 'header_banner_title_setting', array(
-        'default' => __( 'Bootstrap Framework Theme', 'pi-theme' ),
+        'default' => __( 'Bootstrap Framework Theme', 'pi-one' ),
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'header_banner_title_setting', array(
-        'label' => __( 'Banner Title H1', 'pi-theme' ),
+        'label' => __( 'Banner Title H1', 'pi-one' ),
         'section'    => 'header_image',
         'settings'   => 'header_banner_title_setting',
         'type' => 'text'
     ) ) );
 
     $wp_customize->add_setting( 'header_banner_subtitle_setting', array(
-        'default' => __( 'Medaka ballan wrasse longfin dragonfish half-gill arrowtooth eel cardinalfish oilfish aholehole frogmouth catfish footballfish.','pi-theme' ),
+        'default' => __( 'Medaka ballan wrasse longfin dragonfish half-gill arrowtooth eel cardinalfish oilfish aholehole frogmouth catfish footballfish.','pi-one' ),
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'header_banner_subtitle_setting', array(
-        'label' => __( 'Banner Subtitle H2', 'pi-theme' ),
+        'label' => __( 'Banner Subtitle H2', 'pi-one' ),
         'section'    => 'header_image',
         'settings'   => 'header_banner_subtitle_setting',
         'type' => 'text'
     ) ) );
     $wp_customize->add_setting( 'header_banner_paragraph_setting', array(
-        'default' => __( 'To customize the contents go to Customize in your dashboard','pi-theme' ),
+        'default' => __( 'To customize the contents go to Customize in your dashboard','pi-one' ),
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'header_banner_paragraph_setting', array(
-        'label' => __( 'Banner paragraph', 'pi-theme' ),
+        'label' => __( 'Banner paragraph', 'pi-one' ),
         'section'    => 'header_image',
         'settings'   => 'header_banner_paragraph_setting',
         'type' => 'text'
@@ -160,7 +160,7 @@ function pione_theme_customize_register( $wp_customize ) {
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'header_banner_visibility', array(
         'settings' => 'header_banner_visibility',
-        'label'    => __('Remove Header Banner', 'pi-theme'),
+        'label'    => __('Remove Header Banner', 'pi-one'),
         'section'    => 'header_image',
         'type'     => 'checkbox',
     ) ) );
@@ -188,7 +188,7 @@ $wp_customize->add_control( 'pione_button_display', array(
 ) );
 
 $wp_customize->add_setting( 'pione_button_text' , array(
-  'default'     => 'Pi-Theme',
+  'default'     => 'pi-one',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
@@ -201,7 +201,7 @@ $wp_customize->add_control( 'pione_button_text', array(
 ) );
 
 $wp_customize->add_setting( 'pione_button_url' , array(
-  'default'     => 'https://piunoff.eu/pi-theme',
+  'default'     => 'https://piunoff.eu/pi-one',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'esc_url_raw' //cleans URL from all invalid characters
 ) );
@@ -221,16 +221,16 @@ $wp_customize->add_control( 'pione_button_url', array(
    $wp_customize->add_section(
         'site_name_text_color',
         array(
-            'title' => __( 'Text Color', 'pi-theme' ),
-            'description' => __( 'This is a section for the Site Name text Color.', 'pi-theme' ),
+            'title' => __( 'Text Color', 'pi-one' ),
+            'description' => __( 'This is a section for the Site Name text Color.', 'pi-one' ),
             'priority' => 50,
         )
     );
     $wp_customize->add_section(
         'colors',
         array(
-            'title' => __( 'Background Color', 'pi-theme' ),
-            'description' => __( 'This is a section for the header banner Background Color.', 'pi-theme' ),
+            'title' => __( 'Background Color', 'pi-one' ),
+            'description' => __( 'This is a section for the header banner Background Color.', 'pi-one' ),
             'priority' => 60,
             'panel' => 'styling_option_panel',
         )
@@ -238,8 +238,8 @@ $wp_customize->add_control( 'pione_button_url', array(
     $wp_customize->add_section(
         'background_image',
         array(
-            'title' => __( 'Background Image', 'pi-theme' ),
-            'description' => __( 'This is a section for the header banner Image.', 'pi-theme' ),
+            'title' => __( 'Background Image', 'pi-one' ),
+            'description' => __( 'This is a section for the header banner Image.', 'pi-one' ),
             'priority' => 70,
             'panel' => 'styling_option_panel',
         )
@@ -247,20 +247,20 @@ $wp_customize->add_control( 'pione_button_url', array(
 
     // Bootstrap and Fontawesome Option
     $wp_customize->add_setting( 'cdn_assets_setting', array(
-        'default' => __( 'no','pi-theme' ),
+        'default' => __( 'no','pi-one' ),
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
     $wp_customize->add_control( 
         'cdn_assets',
         array(
-            'label' => __( 'Use CDN for Assets', 'pi-theme' ),
-            'description' => __( 'All Bootstrap Assets will be loaded in CDN.', 'pi-theme' ),
+            'label' => __( 'Use CDN for Assets', 'pi-one' ),
+            'description' => __( 'All Bootstrap Assets will be loaded in CDN.', 'pi-one' ),
             'section' => 'typography',
             'settings' => 'cdn_assets_setting',
 	        'type'    => 'select',
 	        'choices' => array(
-	            'yes' => __( 'Yes', 'pi-theme' ),
-	            'no' => __( 'No', 'pi-theme' ),
+	            'yes' => __( 'Yes', 'pi-one' ),
+	            'no' => __( 'No', 'pi-one' ),
         	)
         )
     );
@@ -275,11 +275,11 @@ $wp_customize->add_control( 'pione_button_url', array(
 
     // Add control for logo uploader
     $wp_customize->add_setting( 'pione_theme_logo', array(
-        //'default' => __( '', 'pi-theme' ),
+        //'default' => __( '', 'pi-one' ),
         'sanitize_callback' => 'esc_url',
     ) );
     $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'pione_theme_logo', array(
-        'label'    => __( 'Upload Logo (replaces text)', 'pi-theme' ),
+        'label'    => __( 'Upload Logo (replaces text)', 'pi-one' ),
         'section'  => 'title_tagline',
         'settings' => 'pione_theme_logo',
     ) ) );
@@ -309,7 +309,7 @@ $wp_customize->add_control( 'pione_button_nav_display_control', array(
 ) );
 
 $wp_customize->add_setting( 'pione_button_nav_text' , array(
-  'default'     => 'Pi-Theme',
+  'default'     => 'pi-one',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
