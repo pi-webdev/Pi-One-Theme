@@ -18,8 +18,8 @@ get_header(); ?>
 
 					<div id="content" class="full-width">
 						
-							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-theme' ) ); ?>
-							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'pi-theme' ), 'after' => '</div>' ) ); ?>
+							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-one' ) ); ?>
+							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'pi-one' ), 'after' => '</div>' ) ); ?>
 						
 					</div>
 			</article><!-- #post-<?php the_ID(); ?> -->

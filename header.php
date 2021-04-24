@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package pi-theme
+ * @package pi-one
  */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
@@ -36,15 +36,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 <div id="page" class="site">
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-theme' ); ?></a>
-    <header id="masthead" class="site-header fixed-top <?php echo pi_theme_bg_class(); ?>">
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-one' ); ?></a>
+    <header id="masthead" class="site-header fixed-top <?php echo pione_theme_bg_class(); ?>">
     <?php get_template_part( 'sidebar-header');?>
             <div class="container-fluid">
               <nav class="navbar navbar-expand-xl p-0">
                  <div class="navbar-brand">
-                    <?php if ( get_theme_mod( 'pi_theme_logo' ) ): ?>
+                    <?php if ( get_theme_mod( 'pione_theme_logo' ) ): ?>
                         <a href="<?php echo esc_url( home_url( '/' )); ?>">
-                            <img src="<?php echo esc_url(get_theme_mod( 'pi_theme_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
+                            <img src="<?php echo esc_url(get_theme_mod( 'pione_theme_logo' )); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>">
                         </a>
                     <?php else : ?>
                         <a class="site-title" href="<?php echo esc_url( home_url( '/' )); ?>"><?php esc_url(bloginfo('name')); ?></a>
@@ -70,12 +70,12 @@ if ( ! defined( 'ABSPATH' ) ) {
                                    ));
                       ?>
                      <!--End top menu-->
-                      <?php if( get_theme_mod( 'pi_search_nav_display', 'show' ) == 'show' ) : ?>
+                      <?php if( get_theme_mod( 'pione_search_nav_display', 'show' ) == 'show' ) : ?>
                       <div class="search-form ml-2 mr-2"><?php get_search_form( );?></div>
                       <?php endif ?>
                     <!--End search form-->
-                      <?php if( get_theme_mod( 'pi_button_nav_display_setting', 'show' ) == 'show' ) : ?>
-                        <div><a href="<?php echo esc_html( get_theme_mod( 'pi_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 "><?php echo esc_html( get_theme_mod( 'pi_button_nav_text', 'pi-theme' ) );?></a></div>
+                      <?php if( get_theme_mod( 'pione_button_nav_display_setting', 'show' ) == 'show' ) : ?>
+                        <div><a href="<?php echo esc_html( get_theme_mod( 'pione_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 "><?php echo esc_html( get_theme_mod( 'pione_button_nav_text', 'Pi-One' ) );?></a></div>
                         <?php endif ?>
                         <!--End button-->
                   
@@ -113,13 +113,13 @@ if ( ! defined( 'ABSPATH' ) ) {
                     if(get_theme_mod( 'header_banner_paragraph_setting' )){
                         echo esc_attr( get_theme_mod( 'header_banner_paragraph_setting' ) );
                     }else{
-                        echo esc_html__('','pi-theme');
+                        echo esc_html__('','pi-one');
                     }
                     ?>
                     </p>
                  </div>
-                 <div><?php if( get_theme_mod( 'pi_button_display', 'show' ) == 'show' ) : ?>
-                        <a href="<?php echo esc_html( get_theme_mod( 'pi_button_url', '' ) ) ?>" class="btn btn-primary btn-lg mx-auto mt-5 mb-5" target="_blank"><?php echo esc_html( get_theme_mod( 'pi_button_text', 'Touch me' ) ) ?></a>
+                 <div><?php if( get_theme_mod( 'pione_button_display', 'show' ) == 'show' ) : ?>
+                        <a href="<?php echo esc_html( get_theme_mod( 'pione_button_url', '' ) ) ?>" class="btn btn-primary btn-lg mx-auto mt-5 mb-5" target="_blank"><?php echo esc_html( get_theme_mod( 'pione_button_text', 'Touch me' ) ) ?></a>
                         <?php endif ?>
                     </div>
                     <a href="#content" class="page-scroller"><ion-icon name="chevron-down-outline"></ion-icon></a>

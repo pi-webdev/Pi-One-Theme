@@ -14,13 +14,13 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses pi_theme_header_style()
+ * @uses pione_theme_header_style()
  */
-function pi_theme_custom_header_setup() {
+function pione_theme_custom_header_setup() {
 	add_theme_support(
 		'custom-header',
 		apply_filters(
-			'pi_theme_custom_header_args',
+			'pione_theme_custom_header_args',
 			array(
 				'default-image'      =>     get_template_directory_uri() . '/inc/img/header.jpg',
 				'default-text-color'     => '#b1b1b0',
@@ -28,21 +28,21 @@ function pi_theme_custom_header_setup() {
 				'flex-width'            => true,
 		        'height'                 => 900,
 		        'flex-height'            => true,
-				'wp-head-callback'   => 'pi_theme_header_style',
+				'wp-head-callback'   => 'pione_theme_header_style',
 				
 			)
 		)
 	);
 }
-add_action( 'after_setup_theme', 'pi_theme_custom_header_setup' );
+add_action( 'after_setup_theme', 'pione_theme_custom_header_setup' );
 
-if ( ! function_exists( 'pi_theme_header_style' ) ) :
+if ( ! function_exists( 'pione_theme_header_style' ) ) :
 	/**
 	 * Styles the header image and text displayed on the blog.
 	 *
-	 * @see pi_theme_custom_header_setup().
+	 * @see pione_theme_custom_header_setup().
 	 */
-	function pi_theme_header_style() {
+	function pione_theme_header_style() {
 		$header_text_color = get_header_textcolor();
 
 		/*

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package pi-theme
+ * @package pi-one
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

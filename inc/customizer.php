@@ -16,7 +16,7 @@ function header_banner_sanitize_checkbox( $checked ) {
 }
 
 
-function pi_theme_customize_register( $wp_customize ) {
+function pione_theme_customize_register( $wp_customize ) {
 
     //Style Preset
     $wp_customize->add_section(
@@ -169,17 +169,17 @@ function pi_theme_customize_register( $wp_customize ) {
 
 //Hero Section Button settings
 
-  $wp_customize->add_setting( 'pi_button_display' , array(
+  $wp_customize->add_setting( 'pione_button_display' , array(
     'default'     => true,
     'transport'   => 'refresh',
     'sanitize_callback' => 'wp_filter_nohtml_kses',
     
 ) );
 
-$wp_customize->add_control( 'pi_button_display', array(
+$wp_customize->add_control( 'pione_button_display', array(
 'label' => 'Button Display',
 'section' => 'header_image',
-'settings' => 'pi_button_display',
+'settings' => 'pione_button_display',
 'type' => 'radio',
 'choices' => array(
   'show' => 'Show Button',
@@ -187,29 +187,29 @@ $wp_customize->add_control( 'pi_button_display', array(
 ),
 ) );
 
-$wp_customize->add_setting( 'pi_button_text' , array(
+$wp_customize->add_setting( 'pione_button_text' , array(
   'default'     => 'Pi-Theme',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
 
-$wp_customize->add_control( 'pi_button_text', array(
+$wp_customize->add_control( 'pione_button_text', array(
   'label' => 'Button Text',
 'section'	=> 'header_image',
-'settings' => 'pi_button_text',
+'settings' => 'pione_button_text',
 'type'	 => 'text',
 ) );
 
-$wp_customize->add_setting( 'pi_button_url' , array(
+$wp_customize->add_setting( 'pione_button_url' , array(
   'default'     => 'https://piunoff.eu/pi-theme',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'esc_url_raw' //cleans URL from all invalid characters
 ) );
 
-$wp_customize->add_control( 'pi_button_url', array(
+$wp_customize->add_control( 'pione_button_url', array(
   'label' => 'Button url://',
 'section'	=> 'header_image',
-'settings' => 'pi_button_url',
+'settings' => 'pione_button_url',
 'type'	 => 'text',
 ) );
 //End Hero Sections Button Settings
@@ -274,33 +274,33 @@ $wp_customize->add_control( 'pi_button_url', array(
     $wp_customize->get_control( 'background_color'  )->section = 'site_name_text_color';
 
     // Add control for logo uploader
-    $wp_customize->add_setting( 'pi_theme_logo', array(
+    $wp_customize->add_setting( 'pione_theme_logo', array(
         //'default' => __( '', 'pi-theme' ),
         'sanitize_callback' => 'esc_url',
     ) );
-    $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'pi_theme_logo', array(
+    $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'pione_theme_logo', array(
         'label'    => __( 'Upload Logo (replaces text)', 'pi-theme' ),
         'section'  => 'title_tagline',
-        'settings' => 'pi_theme_logo',
+        'settings' => 'pione_theme_logo',
     ) ) );
     
 //Top Menu Section settings
 
-$wp_customize->add_section( 'pi_navsection' , array(
+$wp_customize->add_section( 'pione_navsection' , array(
       'title'      => 'Top Menu Settings',
       'priority'   => 90,
   ) );
 
-  $wp_customize->add_setting( 'pi_button_nav_display_setting' , array(
+  $wp_customize->add_setting( 'pione_button_nav_display_setting' , array(
     'default'     => true,
     'transport'   => 'refresh',
     'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
 
-$wp_customize->add_control( 'pi_button_nav_display_control', array(
+$wp_customize->add_control( 'pione_button_nav_display_control', array(
 'label' => 'Button Display',
-'section' => 'pi_navsection',
-'settings' => 'pi_button_nav_display_setting',
+'section' => 'pione_navsection',
+'settings' => 'pione_button_nav_display_setting',
 'type' => 'radio',
 'choices' => array(
   'show' => 'Show Button',
@@ -308,42 +308,42 @@ $wp_customize->add_control( 'pi_button_nav_display_control', array(
 ),
 ) );
 
-$wp_customize->add_setting( 'pi_button_nav_text' , array(
+$wp_customize->add_setting( 'pione_button_nav_text' , array(
   'default'     => 'Pi-Theme',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
 
-$wp_customize->add_control( 'pi_button_nav_text', array(
+$wp_customize->add_control( 'pione_button_nav_text', array(
   'label' => 'Button Text',
-'section'	=> 'pi_navsection',
-'settings' => 'pi_button_nav_text',
+'section'	=> 'pione_navsection',
+'settings' => 'pione_button_nav_text',
 'type'	 => 'text',
 ) );
 
-$wp_customize->add_setting( 'pi_button_nav_url' , array(
+$wp_customize->add_setting( 'pione_button_nav_url' , array(
   'default'     => 'https://piunoff.eu/wp-bootstrap-framework-theme',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'esc_url_raw' //cleans URL from all invalid characters
 ) );
 
-$wp_customize->add_control( 'pi_button_nav_url', array(
+$wp_customize->add_control( 'pione_button_nav_url', array(
   'label' => 'Button url://',
-'section'	=> 'pi_navsection',
-'settings' => 'pi_button_nav_url',
+'section'	=> 'pione_navsection',
+'settings' => 'pione_button_nav_url',
 'type'	 => 'text',
 ) );
 
-$wp_customize->add_setting( 'pi_search_nav_display' , array(
+$wp_customize->add_setting( 'pione_search_nav_display' , array(
     'default'     => true,
     'transport'   => 'refresh',
     'sanitize_callback' => 'wp_filter_nohtml_kses',
 ) );
 
-$wp_customize->add_control( 'pi_search_nav_display', array(
+$wp_customize->add_control( 'pione_search_nav_display', array(
 'label' => 'Search form Display',
-'section' => 'pi_navsection',
-'settings' => 'pi_search_nav_display',
+'section' => 'pione_navsection',
+'settings' => 'pione_search_nav_display',
 'type' => 'radio',
 'choices' => array(
   'show' => 'Show Form',
@@ -354,10 +354,10 @@ $wp_customize->add_control( 'pi_search_nav_display', array(
 
 
 }
-add_action( 'customize_register', 'pi_theme_customize_register' );
+add_action( 'customize_register', 'pione_theme_customize_register' );
 
-add_action( 'wp_head', 'pi_theme_customizer_css');
-function pi_theme_customizer_css()
+add_action( 'wp_head', 'pione_theme_customizer_css');
+function pione_theme_customizer_css()
 
 {
     $header_bg_color = get_theme_mod('header_bg_color_setting', '#fff');
@@ -373,8 +373,8 @@ function pi_theme_customizer_css()
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function pi_theme_customize_preview_js() {
-    wp_enqueue_script( 'pi_theme_customizer', get_template_directory_uri() . '/inc/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function pione_theme_customize_preview_js() {
+    wp_enqueue_script( 'pione_theme_customizer', get_template_directory_uri() . '/inc/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'pi_theme_customize_preview_js' );
+add_action( 'customize_preview_init', 'pione_theme_customize_preview_js' );
 

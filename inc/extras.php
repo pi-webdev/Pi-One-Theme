@@ -13,7 +13,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function pi_theme_body_classes( $classes ) {
+function pione_theme_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -30,21 +30,21 @@ function pi_theme_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'pi_theme_body_classes' );
+add_filter( 'body_class', 'pione_theme_body_classes' );
 
 /**
  * Add a pingback url auto-discovery header for singularly identifiable articles.
  */
-function pi_theme_pingback_header() {
+function pione_theme_pingback_header() {
 	echo '<link rel="pingback" href="', esc_url( get_bloginfo( 'pingback_url' ) ), '">';
 }
-add_action( 'wp_head', 'pi_theme_pingback_header' );
+add_action( 'wp_head', 'pione_theme_pingback_header' );
 
 
 /**
  * Return the header class
  */
-function pi_theme_bg_class() {
+function pione_theme_bg_class() {
     switch (get_theme_mod( 'theme_option_setting' )) {
         case "cerulean":
             return 'navbar-dark bg-primary';

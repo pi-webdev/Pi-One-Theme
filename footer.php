@@ -13,7 +13,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 ?>
     <?php get_template_part( 'footer-widget' ); ?>
-<footer id="colophon" class="footer-menu <?php echo pi_theme_bg_class(); ?>">
+<footer id="colophon" class="footer-menu <?php echo pione_theme_bg_class(); ?>">
 	
 
    
