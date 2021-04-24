@@ -371,12 +371,12 @@ function pi_one_navigation(){
 }
 add_action( 'after_setup_theme', 'pi_one_navigation' );
 
-function pi_theme_nav_menu_args( $args ) {
+function pi_one_nav_menu_args( $args ) {
     return array_merge( $args, array(
         'walker' => new WP_Bootstrap_Navwalker(),
     ) );
 }
-add_filter( 'wp_nav_menu_args', 'pi_theme_nav_menu_args' );
+add_filter( 'wp_nav_menu_args', 'pi_one_nav_menu_args' );
 
 /* End of custom navigation Walker*/ 
 
