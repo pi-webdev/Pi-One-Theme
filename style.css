@@ -82,6 +82,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  text-decoration: underline;
 }
 dfn {
   font-style: italic;
@@ -481,6 +482,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
 }
 .dropdown-menu .dropdown-item:hover {
   background: transparent;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 37.5em) {
@@ -716,8 +718,9 @@ a img.aligncenter {
   background-color: #498dfa;
 
 }
-.search-form input[type="submit"]{
-  display: none;
+#masthead .form-control:focus{
+border: 2px solid black;
+
 }
 .nav > li > a:focus,
 .nav > li > a:hover {
@@ -731,6 +734,24 @@ a img.aligncenter {
 .widget_categories .nav-link {
   display: inline-block;
 }
+.search-submit {
+	position: absolute;
+	right: -9999rem;
+}
+
+  #masthead .search-submit:focus {
+    right:0;
+  }
+  .search-submit:focus {
+    right:1.5rem
+  }
+  .search-submit.btn {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #2aad49c9;
+    border: 2px solid;
+
+  }
 
 /*--------------------------------------------------------------
 # Content
