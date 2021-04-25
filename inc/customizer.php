@@ -10,13 +10,13 @@
  *
  * @param WP_Customize_Manager $wp_customize Theme Customizer object.
  */
-function header_banner_sanitize_checkbox( $checked ) {
+function pione_sanitize_checkbox( $checked ) {
     // Boolean check.
     return ( ( isset( $checked ) && true == $checked ) ? true : false );
 }
 
 
-function pione_theme_customize_register( $wp_customize ) {
+function pione_customize_register( $wp_customize ) {
 
     //Style Preset
     $wp_customize->add_section(
@@ -156,7 +156,7 @@ function pione_theme_customize_register( $wp_customize ) {
     ) ) );
     $wp_customize->add_setting( 'header_banner_visibility', array(
         'capability' => 'edit_theme_options',
-        'sanitize_callback' => 'header_banner_sanitize_checkbox',
+        'sanitize_callback' => 'pione_sanitize_checkbox',
     ) );
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'header_banner_visibility', array(
         'settings' => 'header_banner_visibility',
@@ -274,14 +274,13 @@ $wp_customize->add_control( 'pione_button_url', array(
     $wp_customize->get_control( 'background_color'  )->section = 'site_name_text_color';
 
     // Add control for logo uploader
-    $wp_customize->add_setting( 'pione_theme_logo', array(
-        //'default' => __( '', 'pi-one' ),
+    $wp_customize->add_setting( 'pione_logo', array(
         'sanitize_callback' => 'esc_url',
     ) );
-    $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'pione_theme_logo', array(
+    $wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'pione_logo', array(
         'label'    => __( 'Upload Logo (replaces text)', 'pi-one' ),
         'section'  => 'title_tagline',
-        'settings' => 'pione_theme_logo',
+        'settings' => 'pione_logo',
     ) ) );
     
 //Top Menu Section settings
@@ -322,7 +321,7 @@ $wp_customize->add_control( 'pione_button_nav_text', array(
 ) );
 
 $wp_customize->add_setting( 'pione_button_nav_url' , array(
-  'default'     => 'https://piunoff.eu/wp-bootstrap-framework-theme',
+  'default'     => 'https://piunoff.eu/pi-one',
   'transport'   => 'postMessage',
   'sanitize_callback' => 'esc_url_raw' //cleans URL from all invalid characters
 ) );
@@ -354,10 +353,10 @@ $wp_customize->add_control( 'pione_search_nav_display', array(
 
 
 }
-add_action( 'customize_register', 'pione_theme_customize_register' );
+add_action( 'customize_register', 'pione_customize_register' );
 
-add_action( 'wp_head', 'pione_theme_customizer_css');
-function pione_theme_customizer_css()
+add_action( 'wp_head', 'pione_customizer_css');
+function pione_customizer_css()
 
 {
     $header_bg_color = get_theme_mod('header_bg_color_setting', '#fff');
@@ -373,8 +372,8 @@ function pione_theme_customizer_css()
 /**
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
-function pione_theme_customize_preview_js() {
-    wp_enqueue_script( 'pione_theme_customizer', get_template_directory_uri() . '/inc/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
+function pione_customize_preview_js() {
+    wp_enqueue_script( 'pione_customizer', get_template_directory_uri() . '/inc/assets/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
-add_action( 'customize_preview_init', 'pione_theme_customize_preview_js' );
+add_action( 'customize_preview_init', 'pione_customize_preview_js' );
 
