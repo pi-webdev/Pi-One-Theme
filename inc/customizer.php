@@ -42,7 +42,6 @@ function pione_customize_register( $wp_customize ) {
         'type'    => 'select',
         'choices' => array(
             'default' => 'Default',
-            'tesla' => 'Tesla style',
             'cerulean' => 'Cerulean',
             'cosmo' => 'Cosmo',
             'cyborg' => 'Cyborg',
