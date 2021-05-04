@@ -12,7 +12,7 @@ jQuery( function ( $ ) {
 
     // the search widget
     $( '.widget_search input.search-field' ).addClass( 'form-control' );
-    $( '.widget_search input.search-submit' ).addClass( 'btn btn-default' );
+    $( '.widget_search input.search-submit' ).addClass( 'btn btn-primary' );
     $( '.variations_form .variations .value > select' ).addClass( 'form-control' );
     $( '.widget_rss ul' ).addClass( 'media-list' );
 
@@ -28,6 +28,11 @@ jQuery( function ( $ ) {
     // Adding Class to contact form 7 form
     $('.wpcf7-form-control').not(".wpcf7-submit, .wpcf7-acceptance, .wpcf7-file, .wpcf7-radio").addClass('form-control');
     $('.wpcf7-submit').addClass('btn btn-primary');
+
+    // Adding Class to WP Forms
+    $('.wpforms-field-name-first, .wpforms-field-name-last, .wpforms-field-medium, .wpforms-field-large, .wpforms-field-small').not(".wpforms-submit, .wpforms-field-number-slider, .wpforms-field-radio, .wpforms-field-checkbox").addClass('form-control');
+    $('.wpforms-submit, .wpforms-form button[type=submit]').addClass('btn btn-primary');
+   
 
     // Adding Class to Woocommerce form
     $('.woocommerce-Input--text, .woocommerce-Input--email, .woocommerce-Input--password').addClass('form-control');
