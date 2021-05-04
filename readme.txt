@@ -29,6 +29,7 @@ Other features:
 * Widgetized header and footer area
 * WooCommerce ready
 * Compatible with Contact Form 7
+* Compatible with WP Forms
 * Bootstrap studio websites integration
 * Compatible with page builders (Elementor, VC)
 
@@ -53,6 +54,10 @@ This theme will be an active project which we will update from time to time. Che
 * Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
 
 == Changelog ==
+
+= 1.0.8 - 04.05.2021 =
+* add new CSS Class to search page 
+* add WP Forms compatibility
 
 = 1.0.7 - 17.04.2021 =
 * add new screenshot and default header image with Public Licence 

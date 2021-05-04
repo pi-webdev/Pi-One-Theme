@@ -40,7 +40,7 @@ get_header(); ?>
 
 		endif; ?>
 </div> <!--container-->
-		</div><!-- #main -->
+		</div><!-- #content -->
 	</section><!-- #primary -->
 
 <?php
