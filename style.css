@@ -714,6 +714,8 @@ a img.aligncenter {
   max-width: 100%;
 }
 
+
+
 #masthead .form-control{
   background-color: #498dfa;
 
@@ -1012,6 +1014,17 @@ object {
 
 .vc_desktop .entry-content {
   margin-top: 0;
+}
+
+/*-------------------------------------------------------------
+##Polylang rules
+--------------------------------------------------------------*/
+.lang-item {
+  display: inline;
+  list-style: none;
+}
+#access img {
+    margin-bottom: 0px;
 }
 
 /*--------------------------------------------------------------
