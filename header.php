@@ -71,11 +71,11 @@ if ( ! defined( 'ABSPATH' ) ) {
                       ?>
                      <!--End top menu-->
                       <?php if( get_theme_mod( 'pione_search_nav_display', 'show' ) == 'show' ) : ?>
-                      <div class="search-form ml-2 mr-2"><?php get_search_form( );?></div>
+                      <div class="search-form ml-2 mr-2 ml-auto"><?php get_search_form( );?></div>
                       <?php endif ?>
                     <!--End search form-->
                       <?php if( get_theme_mod( 'pione_button_nav_display_setting', 'show' ) == 'show' ) : ?>
-                        <div><a href="<?php echo esc_html( get_theme_mod( 'pione_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 "><?php echo esc_html( get_theme_mod( 'pione_button_nav_text', 'Pi-One' ) );?></a></div>
+                        <div><a href="<?php echo esc_html( get_theme_mod( 'pione_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 ml-auto"><?php echo esc_html( get_theme_mod( 'pione_button_nav_text', 'Pi-One' ) );?></a></div>
                         <?php endif ?>
                         <!--End button-->
                   
