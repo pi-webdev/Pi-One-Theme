@@ -58,6 +58,7 @@ This theme will be an active project which we will update from time to time. Che
 = 1.0.8 - 04.05.2021 =
 * add new CSS Class to search page 
 * add WP Forms compatibility
+* add PolyLang compatibility rules
 
 = 1.0.7 - 17.04.2021 =
 * add new screenshot and default header image with Public Licence 
