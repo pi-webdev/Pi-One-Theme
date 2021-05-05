@@ -763,17 +763,17 @@ border: 2px solid black;
 --------------------------------------------------------------*/
 
 #content.site-content {
-  padding-bottom: 3.75rem;
+  padding-bottom: 0;
   padding-top: 10rem;
 }
 
 #content.full-width {
-  padding-bottom: 3.75rem;
+  padding-bottom: 0;
   padding-top: 5rem;
 }
 
 #content.full-width-title {
-  padding-bottom: 3.75rem;
+  padding-bottom: 0;
   padding-top: 7.5rem;
 }
 
