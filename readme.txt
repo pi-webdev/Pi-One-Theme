@@ -55,6 +55,9 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.0.9 - 06.05.2021 =
+* Fixed bug in navwalker Class
+
 = 1.0.8 - 04.05.2021 =
 * add new CSS Class to search page 
 * add WP Forms compatibility
