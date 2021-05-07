@@ -4,7 +4,7 @@ jQuery( function ( $ ) {
     $( '.comment-reply-link' ).addClass( 'btn btn-primary' );
 
     // here for the submit button of the comment reply form
-    $( '#commentsubmit' ).addClass( 'btn btn-primary' );
+    $( '#submit' ).addClass( 'btn btn-primary' );
 
 
     // The WordPress Default Widgets
