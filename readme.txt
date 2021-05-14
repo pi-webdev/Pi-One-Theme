@@ -1,6 +1,6 @@
 === Pi-One Bootstrap framework theme ===
 
-Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce, theme-options, sticky-post, full-width-template
+Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce ready, theme-options, sticky-post, full-width-template, blanc page template
 Requires at least: 5.3
 Tested up to: 5.7
 
@@ -14,7 +14,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
- WordPress framework theme with clear code based on Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Ionicons . This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page templates includes Right-sidebar (default page template), Full-Width page with title, Full width page without title and container. Other features - Currently using Bootstrap v4.6.0. , Widgetized footer, header and above content areas, WooCommerce ready, Compatible with Contact Form 7, Visual Composer, Elementor Page builders. Easy integration with Bootstrap studio created sites.
+ WordPress framework theme with clear code based on Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Ionicons . This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page templates includes Right-sidebar (default page template), Full-Width page with title, Full width page without title and container, Canvas – blank page template . Other features - Currently using Bootstrap v4.6.0. , Widgetized footer, header and above content areas, WooCommerce ready, Compatible with Contact Form 7, WP Forms, Toolset, Visual Composer, Elementor Page builders. Easy integration with Bootstrap studio created sites.
 
 
 This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress project and you are allowed to remove Copyright link at the footer section or do whatever you want. Your feedback on this WordPress framework theme will be highly appreciated.
@@ -23,6 +23,7 @@ Page templates
 * Right-sidebar (default page template)
 * Full-Width page with title and container
 * Full-width page without title and container
+* Canvas – blank page template 
 
 Other features:
 * Built in Bootstrap v4.6.0
@@ -30,6 +31,7 @@ Other features:
 * WooCommerce ready
 * Compatible with Contact Form 7
 * Compatible with WP Forms
+* Toolset
 * Bootstrap studio websites integration
 * Compatible with page builders (Elementor, VC)
 
@@ -54,6 +56,9 @@ This theme will be an active project which we will update from time to time. Che
 * Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
 
 == Changelog ==
+
+= 1.0.9 - 14.05.2021 =
+* Add blank page template
 
 = 1.0.9 - 06.05.2021 =
 * Fixed bug in navwalker Class
