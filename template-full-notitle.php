@@ -14,19 +14,15 @@ get_header(); ?>
 
          <?php get_template_part( 'top-widgets') ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 					<div id="content" class="full-width">
 						
 							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-one' ) ); ?>
-							<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'pi-one' ), 'after' => '</div>' ) ); ?>
+					
 						
 					</div>
-			</article><!-- #post-<?php the_ID(); ?> -->
-
-				<?php if ( comments_open() || '0' != get_comments_number() ) : ?>
-					<?php comments_template( '', true ); ?>
-				<?php endif; ?>
+			</section><!-- #post-<?php the_ID(); ?> -->
 
 			<?php endwhile; // end of the loop. ?>
 
