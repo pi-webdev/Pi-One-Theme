@@ -125,7 +125,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <a href="#content" class="page-scroller"><ion-icon name="chevron-down-outline"></ion-icon></a>
                     </div><!--container-->
             
-        </div>
+        </div><!--#subheader -->
                     
     <?php endif; ?>
         
