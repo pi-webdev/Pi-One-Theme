@@ -113,7 +113,7 @@ function pione_theme_starter_reminder(){
 	$theme_page_url = 'https://piunoff.eu/pi-one-wordpress-framework-theme';
 
 		if(!get_option( 'triggered_welcome')){
-			$message = sprintf(__( 'Your are installed "pi-one" - Bootstrap Framework WordPress Theme! Before diving in to your new theme, please visit the <a style="color: #fff; font-weight: bold;" href="%1$s" target="_blank">theme\'s</a> page to see our tips and tutorials.', 'pi-one' ),
+			$message = sprintf(__( 'Your are installed "Pi-one" - WordPress Framework Theme! Before diving in to your new theme, please visit the <a style="color: #fff; font-weight: bold;" href="%1$s" target="_blank">theme\'s</a> page to see our tips and tutorials.', 'pi-one' ),
 				esc_url( $theme_page_url )
 			);
 
