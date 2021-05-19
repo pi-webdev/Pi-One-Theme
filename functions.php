@@ -254,9 +254,11 @@ function pione_one_scripts() {
 	// load bootstrap css
     if ( get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
         wp_enqueue_style( 'pi-one-bootstrap-cdn-css', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css' );
+		wp_enqueue_style( 'pi-one-bootstrap-icons-cdn', 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css' );
 
     } else {
         wp_enqueue_style( 'pi-one-bootstrap-css', get_template_directory_uri() . '/inc/css/bootstrap.min.css' );
+		wp_enqueue_style( 'pi-one-bootstrap-icons', get_template_directory_uri() . '/inc/css/bootstrap-icons.css' );
     }
 // load theme styles
 // load BS styles
