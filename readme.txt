@@ -1,4 +1,4 @@
-=== Pi-One Bootstrap framework theme ===
+=== Pi-One WordPress framework theme ===
 
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce ready, theme-options, sticky-post, full-width-template, blanc page template
 Requires at least: 5.3
@@ -27,6 +27,7 @@ Page templates
 
 Other features:
 * Built in Bootstrap v4.6.0
+* Bootstrap icon font v1.5.0
 * Widgetized header and footer area
 * WooCommerce ready
 * Compatible with Contact Form 7
@@ -51,13 +52,17 @@ This theme will be an active project which we will update from time to time. Che
 * normalize.css http://necolas.github.io/normalize.css/, (C) 2012-2016 Nicolas Gallagher and Jonathan Neal, [MIT](http://opensource.org/licenses/MIT)
 * Bootstrap http://getbootstrap.com, (C) 2011-2015 Twitter, Inc., [MIT] (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * WP Bootstrap Navwalker https://github.com/wp-bootstrap/wp-bootstrap-navwalker, [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+* Bootstrap icons Free, high quality, open source icon library with over 1,300 icons. v1.5.0, https://github.com/twbs/icons/releases/tag/v1.5.0
 * Ionicons, v2.0.0 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/ https://twitter.com/benjsperry  https://twitter.com/ionicframework MIT License: https://github.com/driftyco/ionicons
 * Theme options by Bootswatch v4.0.0 Homepage: https://bootswatch.com Copyright 2012-2018 Thomas Park Licensed under MIT Based on Bootstrap
 * Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
 
 == Changelog ==
 
-= 1.0.9 - 14.05.2021 =
+= 1.1.1 - 18.05.2021 =
+* Add Bootstrap icons font 
+
+= 1.1.0 - 14.05.2021 =
 * Add blank page template
 
 = 1.0.9 - 06.05.2021 =
