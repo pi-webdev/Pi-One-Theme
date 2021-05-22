@@ -19,7 +19,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress project and you are allowed to remove Copyright link at the footer section or do whatever you want. Your feedback on this WordPress framework theme will be highly appreciated.
 
-Page templates
+Page templates:
 * Right-sidebar (default page template)
 * Full-Width page with title and container
 * Full-width page without title and container
