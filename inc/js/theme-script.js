@@ -3,8 +3,10 @@ jQuery( function ( $ ) {
     // here for each comment reply link of WordPress
     $( '.comment-reply-link' ).addClass( 'btn btn-primary' );
 
+
     // here for the submit button of the comment reply form
-    $( '#submit' ).addClass( 'btn btn-primary' );
+    $( '.submit' ).addClass( 'btn btn-primary' );
+
 
 
     // The WordPress Default Widgets

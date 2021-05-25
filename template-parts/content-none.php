@@ -9,12 +9,12 @@
 
 ?>
 
-<section class="no-results not-found">
+<section class="no-results not-found py-5">
 	<header class="page-header">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'pi-one' ); ?></h1>
+		<h1 class="page-title text-center"><?php esc_html_e( 'Nothing Found', 'pi-one' ); ?></h1>
 	</header><!-- .page-header -->
-
-	<div class="page-content">
+	<div class="alert alert-dismissible alert-warning shadow">
+	<div class="page-content text-center">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
@@ -34,18 +34,19 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'pi-one' ); ?></p>
+			<h2><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'pi-one' ); ?></h2>
 			<?php
 			get_search_form();
 
 		else :
 			?>
-
-			<p><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'pi-one' ); ?></p>
+			<h2><?php esc_html_e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'pi-one' ); ?></h2>
 			<?php
 			get_search_form();
 
 		endif;
 		?>
 	</div><!-- .page-content -->
+</div>
+	
 </section><!-- .no-results -->
