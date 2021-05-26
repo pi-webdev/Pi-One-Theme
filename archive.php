@@ -13,7 +13,7 @@ get_header();
 <div class="container">
   <div class="row">
     <main class="col blog-main">
-      <h1 class="pb-4 mb-4 font-italic border-bottom">
+      <h1 class="pb-4 mb-4 font-italic border-bottom border-primary">
 	  <?php single_cat_title('Category: '); ?>
 	  <?php the_archive_title(  )?>
       </h1>
