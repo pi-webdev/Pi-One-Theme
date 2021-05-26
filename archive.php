@@ -12,7 +12,7 @@ get_header();
 <section id="content" class="site-content">
 <div class="container">
   <div class="row">
-    <div class="col blog-main">
+    <main class="col blog-main">
       <h3 class="pb-4 mb-4 font-italic border-bottom">
 	  <?php single_cat_title('Category: '); ?>
 	  <?php the_archive_title(  )?>
@@ -27,7 +27,7 @@ get_header();
 	  <?php the_posts_navigation(); ?>
       </nav>
 
-    </div><!-- /.blog-main -->
+</main><!-- /.blog-main -->
 <!--Sidebar section-->
     
       <?php get_sidebar();?>

@@ -17,8 +17,7 @@
 		if ( 'post' === get_post_type() ) : ?>
 		<p class="entry-meta">
 			<?php pione_theme_posted_on(); ?>
-      <?php the_date(  );?></br>
-      <a><?php the_author_posts_link(  );?></a>
+      <a><?php pione_theme_posted_by(); ?></a>
     </p><!-- .entry-meta -->
 		<?php
 		endif; ?>
