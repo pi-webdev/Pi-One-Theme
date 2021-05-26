@@ -13,9 +13,9 @@ get_header();
 <div  class="container">
   <div class="row">
     <main class="col blog-main">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
+      <h1 class="pb-4 mb-4 font-italic border-bottom">
 	  <?php single_cat_title('Category: '); ?>
-      </h3>
+      </h1>
 	  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <?php get_template_part( '/template-parts/content', 'category' )?>
 	  <?php endwhile; ?>
