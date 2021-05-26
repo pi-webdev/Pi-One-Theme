@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-<div id="content" class="site-content">
+<section id="content" class="site-content">
 <main role="main" class="container pb-5">
   <div class="row">
     <div class="col-12 d-flex justify-content-center">
@@ -23,7 +23,7 @@ get_header();
   </div><!-- /.row -->
 
 </main><!-- /.container -->
-								</div><!--Main site content-->
+</section<!--Main site content-->
 <?php
 get_footer();?>
 <!--End Blog Page-->

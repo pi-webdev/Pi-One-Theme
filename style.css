@@ -46,6 +46,7 @@ Pi-One is distributed under the terms of the GNU GPL.
 body {
   margin: 0;
   -webkit-font-smoothing: auto;
+  
 }
 article,
 aside,
@@ -295,7 +296,7 @@ label{
 
 .navbar-brand > a {
   color: rgba(0, 0, 0, 0.9);
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   outline: medium none;
   text-decoration: none;
   color: #fff;
@@ -374,7 +375,6 @@ a.page-scroller {
 /*--------------------------------------------------------------
 ## Links
 --------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -387,7 +387,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
   color: #ffffffb9;
   padding: 0.5rem;
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 1rem; 
 }
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
@@ -455,6 +455,9 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     -webkit-border-radius: 6px 0 6px 6px;
     -moz-border-radius: 6px 0 6px 6px;
     border-radius: 6px 0 6px 6px;
+}
+a .nav-link {
+  font-size: 1rem;
 }
 
 /* Small menu. */
@@ -713,7 +716,7 @@ a img.aligncenter {
 --------------------------------------------------------------*/
 .widget {
   margin: auto;
-  font-size: 0.875rem;
+  font-size: 1rem;
   /* Make sure select elements fit in widgets. */
 }
 .widget select {

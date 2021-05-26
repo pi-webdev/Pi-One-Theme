@@ -35,7 +35,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 ?>
 
-<div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-one' ); ?></a>
     <header id="masthead" class="site-header fixed-top <?php echo pione_theme_bg_class(); ?>">
     <?php get_template_part( 'sidebar-header');?>

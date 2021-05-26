@@ -9,8 +9,8 @@
 
 get_header();
 ?>
-<div id="content" class="site-content">
-<main role="main" class="container">
+<section id="content" class="site-content">
+<div class="container">
   <div class="row">
     <div class="col blog-main">
       <h3 class="pb-4 mb-4 font-italic border-bottom">
@@ -35,8 +35,8 @@ get_header();
 
   </div><!-- /.row -->
 
-</main><!-- /.container -->
-								</div><!--Main site content-->
+</div><!-- /.container -->
+</section><!--Main site content-->
 <?php
 get_footer();?>
 <!--End Blog Page-->

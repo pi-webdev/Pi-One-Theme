@@ -40,7 +40,6 @@ if ( ! defined( 'ABSPATH' ) ) {
                 <a class="credits" href="https://piunoff.eu/pi-one/" target="_blank" title="Pi-One Technical Support"><?php echo esc_html__('Pi-One WordPress Theme','pi-one'); ?></a></div>
     
 </footer><!-- #colophon -->
-</div><!-- #page -->
 <?php wp_footer(); ?>
 </body>
 </html>
