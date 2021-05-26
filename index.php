@@ -20,7 +20,7 @@ get_header();
 <div class="container">
   <div class="row">
     <main class="col blog-main">
-      <h1 class="pb-4 mb-4 font-italic border-bottom">
+      <h1 class="pb-4 mb-4 font-italic border-bottom border-primary">
 	  <?php the_archive_title(  )?>
       </h1>
 	  <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
