@@ -11,9 +11,9 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div class="post-thumbnail">
+	<figure class="post-thumbnail">
 		<?php the_post_thumbnail('', array ('class' => 'rounded img-fluid')); ?>
-	</div>
+</figure>
 	<header class="entry-header">
 		<?php
 		if ( is_single() ) :

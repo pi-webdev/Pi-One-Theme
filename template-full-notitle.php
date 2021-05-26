@@ -18,9 +18,12 @@ get_header(); ?>
 
 					<div id="content" class="full-width">
 						
-							<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-one' ) ); ?>
+							<?php the_content( ); ?>
 					
-						
+							<? wp_link_pages( array(
+				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
+				'after'  => '</div>',
+			) ); ?>
 					</div>
 			</section><!-- #post-<?php the_ID(); ?> -->
 
