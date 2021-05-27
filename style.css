@@ -795,11 +795,12 @@ border: 2px solid black;
 .sticky .entry-title::before {
   content: '\bi-bookmarks';
   font-family: "Bootstrap-icons";
-  font-size: 1.563rem;
+  font-size: 1.6rem;
   left: -2.5rem;
   position: absolute;
   top: 0.375rem;
-  font-weight: 900;
+  font-weight: 400;
+  color: red;
 }
 
 .sticky .entry-title {
