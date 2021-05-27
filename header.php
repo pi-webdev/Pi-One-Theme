@@ -101,9 +101,11 @@ if ( ! defined( 'ABSPATH' ) ) {
                 <div class="col-8 offset-2">
                   <h2 class="text-center">
                     <?php
-                    if(get_theme_mod( 'header_banner_subtitle_setting' )):?>
-                        <?php echo esc_attr( get_theme_mod( 'header_banner_subtitle_setting' ) );?>
-                    <?php endif
+                    if(get_theme_mod( 'header_banner_subtitle_setting' )){
+                        echo esc_attr( get_theme_mod( 'header_banner_subtitle_setting' ) );
+                    }else{
+                        echo 'WordPress framework theme with clear code based on Twitter Bootstrap';
+                    }
                     ?>
                   </h2>
                 </div>
