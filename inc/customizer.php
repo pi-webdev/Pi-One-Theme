@@ -361,7 +361,7 @@ function pione_customizer_css()
     $header_bg_color = get_theme_mod('header_bg_color_setting', '#fff');
 
     ?>
-    <style type="text/css">
+    <style>
         #sub-header { background: <?php echo esc_attr( $header_bg_color ); ?>; }
     </style>
     <?php
