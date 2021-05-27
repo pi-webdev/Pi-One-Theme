@@ -281,8 +281,14 @@ label{
   margin: 0px;
   padding: 0px;
 }
-.search-form {
-  padding-left: 1rem;
+#search-2 {
+  text-align: center;
+}
+#search-2 h3 {
+  font-size: 1.3rem;
+  padding: 0;
+  font-style: italic;
+
 }
 /*--------------------------------------------------------------
 # Navigation

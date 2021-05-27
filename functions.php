@@ -154,7 +154,7 @@ function pione_theme_widgets_init() {
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-title pl-3">',
+        'before_title'  => '<h3 class="widget-title p-3">',
         'after_title'   => '</h3>',
     ) );
 	//top-menu//

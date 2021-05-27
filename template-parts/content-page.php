@@ -13,6 +13,9 @@
     $enable_vc = get_post_meta(get_the_ID(), '_wpb_vc_js_status', true);
     if(!$enable_vc ) {
     ?>
+	<figure class="post-thumbnail">
+		<?php the_post_thumbnail('', array ('class' => 'rounded img-fluid')); ?>
+</figure>
     <header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
