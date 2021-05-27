@@ -793,8 +793,8 @@ border: 2px solid black;
 }
 
 .sticky .entry-title::before {
-  content: '\f08d';
-  font-family: "Font Awesome\ 5 Free";
+  content: '\bi-bookmarks';
+  font-family: "Bootstrap-icons";
   font-size: 1.563rem;
   left: -2.5rem;
   position: absolute;
