@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 get_header(); ?>
-<div id="content" class="full-width-title">
+<main id="content" class="full-width-title">
 <div class="container">
 	
 			<?php while ( have_posts() ) : the_post(); ?>
@@ -27,5 +27,5 @@ get_header(); ?>
 				
 			
 		</div>
-				</div>
+				</main>
 <?php get_footer(); ?>

@@ -14,7 +14,7 @@ get_header(); ?>
 
          <?php get_template_part( 'top-widgets') ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-			<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<main id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 					<div id="content" class="full-width">
 						
@@ -25,7 +25,7 @@ get_header(); ?>
 				'after'  => '</div>',
 			) ); ?>
 					</div>
-			</section><!-- #post-<?php the_ID(); ?> -->
+							</main><!-- #post-<?php the_ID(); ?> -->
 
 			<?php endwhile; // end of the loop. ?>
 

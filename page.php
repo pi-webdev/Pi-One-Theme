@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-<section id="content" class="site-content">
+<div id="content" class="site-content">
   <div class="container">
 	<div class="row">
 	  <div class="col">
@@ -33,7 +33,7 @@ get_header(); ?>
 			<?php get_sidebar( );?>
 	</div>
   </div>
-		</section><!--MainSection-->
+		</div><!--Content-->
 
 <?php
 get_footer();
