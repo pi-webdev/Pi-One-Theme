@@ -1,0 +1,29 @@
+{
+  "name": "pi-one",
+  "version": "1.0.0",
+  "description": "=== Pi-One WordPress framework theme ===",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pi-webdev/Pi-One-Theme.git"
+  },
+  "keywords": [
+    "Pi-one",
+    "wordpress",
+    "theme",
+    "framework",
+    "CMS"
+  ],
+  "author": "Deniss P",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/pi-webdev/Pi-One-Theme/issues"
+  },
+  "homepage": "https://github.com/pi-webdev/Pi-One-Theme#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

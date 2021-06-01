@@ -32,7 +32,7 @@ jQuery( function ( $ ) {
     $('.wpcf7-submit').addClass('btn btn-primary');
 
     // Adding Class to WP Forms
-    $('.wpforms-field-name-first, .wpforms-field-name-last, .wpforms-field-medium, .wpforms-field-large, .wpforms-field-small').not(".wpforms-submit, .wpforms-field-number-slider, .wpforms-field-radio, .wpforms-field-checkbox").addClass('form-control');
+    $('.wpforms-field-name-first, .wpforms-field-name-last, .wpforms-field-medium, .wpforms-field-large, .wpforms-field-small').addClass('form-control');
     $('.wpforms-submit, .wpforms-form button[type=submit]').addClass('btn btn-primary');
    
 
