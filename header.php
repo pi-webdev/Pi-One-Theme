@@ -24,7 +24,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <body <?php body_class(); ?>>
 
-<?php 
+<?php
 
     // WordPress 5.2 wp_body_open implementation
     if ( function_exists( 'wp_body_open' ) ) {
@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-one' ); ?></a>
-    <header id="masthead" class="site-header fixed-top <?php echo pione_theme_bg_class(); ?>">
+    <header id="masthead" class="site-header <?php echo pione_theme_bg_class(); ?>">
     <?php get_template_part( 'sidebar-header');?>
             <div class="container-fluid">
               <nav class="navbar navbar-expand-xl p-0">
@@ -50,7 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     <?php endif; ?>
 
                  </div>
-                 
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                    <span class="navbar-toggler-icon"></span>
                    </button>
@@ -77,14 +77,14 @@ if ( ! defined( 'ABSPATH' ) ) {
                         <div><a href="<?php echo esc_html( get_theme_mod( 'pione_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 ml-auto "><?php echo esc_html( get_theme_mod( 'pione_button_nav_text', 'pi-one' ) );?></a></div>
                         <?php endif ?>
                         <!--End button-->
-                  
+
                       </div>
                </nav>
-                      
+
 
             </div>
             <!--fixed navbar end-->
-          
+
 	</header><!-- #masthead -->
     <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
         <div id="sub-header" style="background: url(<?php echo get_custom_header ()->url; ?>)" >
@@ -125,10 +125,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     </div>
                     <a href="#content" class="page-scroller"><ion-icon name="chevron-down-outline"></ion-icon></a>
                     </div><!--container-->
-            
+
         </div><!--#subheader -->
-                    
+
     <?php endif; ?>
-        
-            
-                

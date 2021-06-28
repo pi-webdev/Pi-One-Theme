@@ -12,16 +12,17 @@
  *
  */
 
-get_header(); ?>
+ get_header(); ?>
+ <div id="content" class="site-content">
+   <div class="container">
+ 	<div class="row">
+ 	  <main class="col">
+ 			<?php woocommerce_content(); ?>
+ 	  </main>
+ 			<?php get_sidebar( );?>
+ 	</div>
+   </div>
+ 		</div><!--Content-->
 
-    <section id="primary" class="content-area col-12">
-        <div id="main" class="site-main" role="main">
-
-            <?php woocommerce_content(); ?>
-
-        </div><!-- #main -->
-    </section><!-- #primary -->
-
-<?php
-get_sidebar();
-get_footer();
+ <?php
+ get_footer();

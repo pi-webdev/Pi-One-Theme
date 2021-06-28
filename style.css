@@ -46,7 +46,7 @@ Pi-One is distributed under the terms of the GNU GPL.
 body {
   margin: 0;
   -webkit-font-smoothing: auto;
-  
+
 }
 article,
 aside,
@@ -141,7 +141,7 @@ select {
 button,
 html input[type="button"],
 input[type="reset"] {
-  
+
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -393,7 +393,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li > a {
   color: #ffffffb9;
   padding: 0.5rem;
   font-weight: 500;
-  font-size: 1rem; 
+  font-size: 1rem;
 }
 
 body:not(.theme-preset-active) #masthead .navbar-nav > li > a:hover,
@@ -543,7 +543,7 @@ a .nav-link {
   float: left;
   width: auto;
   margin-bottom: 35px;
-  
+
 }
 
 .comment-navigation .nav-next,
@@ -999,6 +999,12 @@ object {
 .woocommerce-MyAccount-content .col-2 {
   max-width: 100%;
 }
+@media screen and (min-width: 1200px) {
+a .bi-bag {
+  padding-right: 10px;
+  padding-left: 35px;
+} }
+
 
 /*--------------------------------------------------------------
 ## Elementor
