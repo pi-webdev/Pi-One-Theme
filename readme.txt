@@ -32,7 +32,7 @@ Other features:
 * WooCommerce ready
 * Compatible with Contact Form 7
 * Compatible with WP Forms
-* Toolset
+* Toolset 
 * Bootstrap studio websites integration
 * Compatible with page builders (Elementor, VC)
 
@@ -58,6 +58,10 @@ This theme will be an active project which we will update from time to time. Che
 * Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
 
 == Changelog ==
+
+= 1.1.2 - 19.07.2021 =
+* Add Multilingual support
+* Add Russian Language
 
 = 1.1.1 - 18.05.2021 =
 * Add Bootstrap icons font 
