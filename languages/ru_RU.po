@@ -299,7 +299,7 @@ msgstr ""
 #: inc/template-tags.php:73
 #, php-format
 msgid "Tagged %1$s"
-msgstr "Тэги поста %1$s"
+msgstr "Тэги %1$s"
 
 #: inc/customizer.php:223
 msgid "Text Color"
