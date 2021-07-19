@@ -196,3 +196,7 @@ msgstr ""
 #: template-parts/content.php:40
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
+
+#: template-parts/content-archive.php:32
+msgid "Read more..."
+msgstr ""

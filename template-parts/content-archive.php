@@ -29,7 +29,7 @@
         else :
             the_excerpt( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'pi-one' ) );
         endif; ?>
-		<div><a href="<?php the_permalink()?>" class="btn btn-primary mt-3 mb-4" type="button"><?php echo esc_html( 'Read more...', 'pi-one');?></a></div>
+		<div><a href="<?php the_permalink()?>" class="btn btn-primary mt-3 mb-4" type="button"><?php echo esc_html__( 'Read more...', 'pi-one');?></a></div>
 			<?php wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
 				'after'  => '</div>',
