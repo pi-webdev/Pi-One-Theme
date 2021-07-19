@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: 1.0.2\n"
 "Report-Msgid-Bugs-To: https://piunoff.eu/support/pi-one\n"
 "POT-Creation-Date: 2021-07-19 22:39+0300\n"
-"PO-Revision-Date: 2021-07-19 20:04+0000\n"
+"PO-Revision-Date: 2021-07-19 20:48+0000\n"
 "Last-Translator: Denis <Piunoff>\n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/\n"
 "X-Domain: pi-one\n"
-"X-Poedit-KeywordsList: __; _e; esc_html__; esc_html_e;esc_html_x\n"
+"X-Poedit-KeywordsList: __; _e; esc_html__; esc_html_e; esc_html_x\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
@@ -27,7 +27,7 @@ msgstr "%s <span class=\"says\">говорит:</span>"
 
 #: inc/template-tags.php:65 inc/template-tags.php:71
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: inc/template-tags.php:209
 msgid ""
@@ -36,6 +36,18 @@ msgid ""
 msgstr ""
 "<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
 "Изменить"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Дата поста %s"
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr "автор поста %s"
 
 #: functions.php:239
 msgid "Achive page Hero section widget."
@@ -217,7 +229,7 @@ msgstr "Pi-One Вордпресс тема"
 
 #: inc/template-tags.php:187
 msgid "Pingback:"
-msgstr ""
+msgstr "ПиНгбэк:"
 
 #: comments.php:102
 msgid "Post Comment"
