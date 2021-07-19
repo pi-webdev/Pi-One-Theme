@@ -10,63 +10,13 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-19 19:31+0300\n"
+"POT-Creation-Date: 2021-07-19 22:47+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: Poedit 3.0\n"
 "X-Domain: pi-one\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
-
-#. Theme Name of the theme
-msgid "Pi-One"
-msgstr ""
-
-#. Theme URI of the theme
-msgid "https://piunoff.eu/pi-one"
-msgstr ""
-
-#. Description of the theme
-msgid ""
-"The best WordPress framework theme based on the most powerful frameworks in the world: \"_s\" (by "
-"Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, "
-"and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or "
-"Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This "
-"theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress "
-"theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on "
-"how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page "
-"templates includes Right-sidebar (default page template), Front-page without container, Left-Sidebar, Full-"
-"Width page with title, Full width page without title and container, Blank page without container for landing "
-"page websites. Other features - Currently using Bootstrap v4.6.0. , Widgetized footer area, WooCommerce "
-"ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page "
-"Builder. This theme will be an active project which we will update from time to time. Check this page "
-"regularly for the updates."
-msgstr ""
-
-#. Author of the theme
-msgid "Deniss Piunoff (Pi-WEB)"
-msgstr ""
-
-#. Author URI of the theme
-msgid "https://piunoff.eu/"
-msgstr ""
-
-#: 404.php:18
-msgid "Oops! That page can&rsquo;t be found."
-msgstr ""
-
-#: 404.php:22
-msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr ""
-
-#: 404.php:31
-msgid "Most Used Categories"
-msgstr ""
-
-#. translators: %1$s: smiley
-#: 404.php:49
-msgid "Try looking in the monthly archives. %1$s"
-msgstr ""
 
 #: comments.php:36
 #, php-format
@@ -131,9 +81,7 @@ msgstr ""
 msgid "Sidebar 1"
 msgstr ""
 
-#: functions.php:154 functions.php:164 functions.php:173 functions.php:182
-#: functions.php:192 functions.php:201 functions.php:211 functions.php:220
-#: functions.php:229
+#: functions.php:154 functions.php:164 functions.php:173 functions.php:182 functions.php:192 functions.php:201 functions.php:211 functions.php:220 functions.php:229
 msgid "Add widgets here."
 msgstr ""
 
@@ -181,6 +129,14 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
+#: header.php:97 inc/customizer.php:126
+msgid "Bootstrap Framework Theme"
+msgstr ""
+
+#: header.php:107
+msgid "WordPress framework theme with clear code based on Twitter Bootstrap 4"
+msgstr ""
+
 #: inc/customizer.php:25
 msgid "Preset Styles"
 msgstr ""
@@ -207,10 +163,6 @@ msgstr ""
 
 #: inc/customizer.php:119
 msgid "Header Banner Background Color"
-msgstr ""
-
-#: inc/customizer.php:126
-msgid "Bootstrap Framework Theme"
 msgstr ""
 
 #: inc/customizer.php:130
@@ -301,24 +253,28 @@ msgstr ""
 msgid "Top Menu Settings"
 msgstr ""
 
+#: inc/customizer.php:304
+msgid "Show Button"
+msgstr ""
+
+#: inc/customizer.php:305
+msgid "Hide Button"
+msgstr ""
+
 #: inc/customizer.php:342
 msgid "Search form Dispaly"
 msgstr ""
 
+#: inc/customizer.php:347
+msgid "Show Form"
+msgstr ""
+
+#: inc/customizer.php:348
+msgid "Hide Form"
+msgstr ""
+
 #: inc/pione-wp-bootstrap-navwalker.php:366
 msgid "Add a menu"
-msgstr ""
-
-#. translators: %s: post date.
-#: inc/template-tags.php:30
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr ""
-
-#. translators: %s: post author.
-#: inc/template-tags.php:46
-msgctxt "post author"
-msgid "by %s"
 msgstr ""
 
 #: inc/template-tags.php:65 inc/template-tags.php:71
@@ -366,14 +322,11 @@ msgstr ""
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-full-notitle.php:24 template-parts/content-archive.php:34
-#: template-parts/content-category.php:36 template-parts/content-notitle.php:17
-#: template-parts/content-page.php:29 template-parts/content.php:41
+#: template-full-notitle.php:24 template-parts/content-archive.php:34 template-parts/content-category.php:36 template-parts/content-notitle.php:17 template-parts/content-page.php:29 template-parts/content.php:41
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/content-archive.php:30 template-parts/content-category.php:30
-#: template-parts/content.php:37
+#: template-parts/content-archive.php:30 template-parts/content-category.php:30 template-parts/content.php:37
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
