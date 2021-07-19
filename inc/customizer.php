@@ -176,7 +176,7 @@ function pione_customize_register( $wp_customize ) {
 ) );
 
 $wp_customize->add_control( 'pione_button_display', array(
-'label' => 'Button Display',
+'label' => __('Button Display', 'pi-one'),
 'section' => 'header_image',
 'settings' => 'pione_button_display',
 'type' => 'radio',
@@ -193,7 +193,7 @@ $wp_customize->add_setting( 'pione_button_text' , array(
 ) );
 
 $wp_customize->add_control( 'pione_button_text', array(
-  'label' => 'Button Text',
+  'label' => __('Button Text', 'pi-one'),
 'section'	=> 'header_image',
 'settings' => 'pione_button_text',
 'type'	 => 'text',
@@ -206,7 +206,7 @@ $wp_customize->add_setting( 'pione_button_url' , array(
 ) );
 
 $wp_customize->add_control( 'pione_button_url', array(
-  'label' => 'Button url://',
+  'label' => __('Button url://', 'pi-one'),
 'section'	=> 'header_image',
 'settings' => 'pione_button_url',
 'type'	 => 'text',
@@ -285,7 +285,7 @@ $wp_customize->add_control( 'pione_button_url', array(
 //Top Menu Section settings
 
 $wp_customize->add_section( 'pione_navsection' , array(
-      'title'      => 'Top Menu Settings',
+      'title'      => __( 'Top Menu Settings', 'pi-one' ),
       'priority'   => 90,
   ) );
 
@@ -296,7 +296,7 @@ $wp_customize->add_section( 'pione_navsection' , array(
 ) );
 
 $wp_customize->add_control( 'pione_button_nav_display_control', array(
-'label' => 'Button Display',
+'label' => __( 'Button Display', 'pi-one' ),
 'section' => 'pione_navsection',
 'settings' => 'pione_button_nav_display_setting',
 'type' => 'radio',
@@ -313,7 +313,7 @@ $wp_customize->add_setting( 'pione_button_nav_text' , array(
 ) );
 
 $wp_customize->add_control( 'pione_button_nav_text', array(
-  'label' => 'Button Text',
+  'label' => __( 'Button Text', 'pi-one' ),
 'section'	=> 'pione_navsection',
 'settings' => 'pione_button_nav_text',
 'type'	 => 'text',
@@ -326,7 +326,7 @@ $wp_customize->add_setting( 'pione_button_nav_url' , array(
 ) );
 
 $wp_customize->add_control( 'pione_button_nav_url', array(
-  'label' => 'Button url://',
+  'label' => __( 'Button url://', 'pi-one' ),
 'section'	=> 'pione_navsection',
 'settings' => 'pione_button_nav_url',
 'type'	 => 'text',
@@ -339,7 +339,7 @@ $wp_customize->add_setting( 'pione_search_nav_display' , array(
 ) );
 
 $wp_customize->add_control( 'pione_search_nav_display', array(
-'label' => 'Search form Display',
+'label' => __('Search form Dispaly','pi-one'),
 'section' => 'pione_navsection',
 'settings' => 'pione_search_nav_display',
 'type' => 'radio',
