@@ -301,8 +301,8 @@ $wp_customize->add_control( 'pione_button_nav_display_control', array(
 'settings' => 'pione_button_nav_display_setting',
 'type' => 'radio',
 'choices' => array(
-  'show' => 'Show Button',
-  'hide' => 'Hide Button',
+  'show' => __( 'Show Button', 'pi-one' ),
+  'hide' => __( 'Hide Button', 'pi-one' ),
 ),
 ) );
 
@@ -344,8 +344,8 @@ $wp_customize->add_control( 'pione_search_nav_display', array(
 'settings' => 'pione_search_nav_display',
 'type' => 'radio',
 'choices' => array(
-  'show' => 'Show Form',
-  'hide' => 'Hide Form',
+  'show' => 'Show Form',__('Show Form','pi-one'),
+  'hide' => 'Hide Form',__('Hide Form','pi-one'),
 ),
 ) );
 //End Top Menu  Sections Settings

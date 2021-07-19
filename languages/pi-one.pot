@@ -44,7 +44,7 @@ msgid ""
 msgstr ""
 
 #. Author of the theme
-msgid "Deniss piunoff (Pi-WEB)"
+msgid "Deniss Piunoff (Pi-WEB)"
 msgstr ""
 
 #. Author URI of the theme
@@ -307,6 +307,18 @@ msgstr ""
 
 #: inc/pione-wp-bootstrap-navwalker.php:366
 msgid "Add a menu"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
 msgstr ""
 
 #: inc/template-tags.php:65 inc/template-tags.php:71

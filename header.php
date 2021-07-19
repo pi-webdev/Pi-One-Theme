@@ -94,7 +94,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     if(get_theme_mod( 'header_banner_title_setting' )){
                         echo esc_attr( get_theme_mod( 'header_banner_title_setting' ) );
                     }else{
-                        echo 'Bootstrap Framework Theme';
+                        echo esc_html__('Bootstrap Framework Theme','pi-one');
                     }
                     ?>
                 </h1>
@@ -104,7 +104,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                     if(get_theme_mod( 'header_banner_subtitle_setting' )){
                         echo esc_attr( get_theme_mod( 'header_banner_subtitle_setting' ) );
                     }else{
-                        echo 'WordPress framework theme with clear code based on Twitter Bootstrap';
+                        echo esc_html__('WordPress framework theme with clear code based on Twitter Bootstrap 4','pi-one');
                     }
                     ?>
                   </h2>
@@ -113,9 +113,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                         <p><?php
                     if(get_theme_mod( 'header_banner_paragraph_setting' )){
                         echo esc_attr( get_theme_mod( 'header_banner_paragraph_setting' ) );
-                    }else{
-                        echo esc_html__('','pi-one');
-                    }
+                    }else
                     ?>
                     </p>
                  </div>
