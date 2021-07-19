@@ -4,20 +4,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.2\n"
 "Report-Msgid-Bugs-To: https://piunoff.eu/support/pi-one\n"
+"POT-Creation-Date: 2021-07-19 20:37+0300\n"
+"PO-Revision-Date: 2021-07-19 20:38+0300\n"
+"Last-Translator: Denis <Piunoff>\n"
 "Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-19 19:31+0300\n"
-"PO-Revision-Date: 2021-07-19 20:10+0300\n"
 "X-Generator: Poedit 3.0\n"
 "X-Domain: pi-one\n"
-"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-KeywordsList: __; _e; esc_html__; esc_html_e\n"
 "X-Poedit-Basepath: ..\n"
-"Last-Translator: Denis <Piunoff>\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
-"Language: ru\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: comments.php:36
@@ -39,7 +39,7 @@ msgstr "Новые комментарии"
 
 #: comments.php:90
 msgid "Comments are closed."
-msgstr "Комментарии закрыты"
+msgstr "Комментарии закрыты."
 
 #: comments.php:98
 msgid "Leave a Reply"
@@ -64,7 +64,7 @@ msgid ""
 "and attributes:"
 msgstr ""
 "Вы можете использовать разметку <abbr title=\"HyperText Markup Language"
-"\">HTML</abbr> теги и атрибуты"
+"\">HTML</abbr> теги и атрибуты:"
 
 #: footer.php:40
 msgid "Pi-One WordPress Theme"
@@ -99,7 +99,7 @@ msgstr "Сайдбар 1"
 #: functions.php:192 functions.php:201 functions.php:211 functions.php:220
 #: functions.php:229
 msgid "Add widgets here."
-msgstr "Добавьте виджеты сюда"
+msgstr "Добавьте виджеты сюда."
 
 #: functions.php:162
 msgid "Top menu contact widget left area"
@@ -139,7 +139,7 @@ msgstr "Секция \"Хиро\" Блога"
 
 #: functions.php:239
 msgid "Achive page Hero section widget."
-msgstr "Секция \"Хиро\" страницы с архивами"
+msgstr "Секция \"Хиро\" страницы с архивами."
 
 #: header-blanc.php:38 header.php:38
 msgid "Skip to content"
@@ -187,7 +187,7 @@ msgid ""
 "cardinalfish oilfish aholehole frogmouth catfish footballfish."
 msgstr ""
 "Привет, Мир - это нечего не значащий текст не имеющий никакой смысловой "
-"нагрузки"
+"нагрузки."
 
 #: inc/customizer.php:141
 msgid "Banner Subtitle H2"
@@ -253,7 +253,7 @@ msgstr "Использовать CDN для исходных данных"
 
 #: inc/customizer.php:256
 msgid "All Bootstrap Assets will be loaded in CDN."
-msgstr "Все исходники Bootstrap загружу через CDN"
+msgstr "Все исходники Bootstrap загружу через CDN."
 
 #: inc/customizer.php:261
 msgid "Yes"
@@ -279,14 +279,24 @@ msgstr "Отображать поле поиска"
 msgid "Add a menu"
 msgstr "Добавить меню"
 
+#: inc/template-tags.php:30
+#, php-format
+msgid "Posted on %s"
+msgstr "Дата поста %s"
+
+#: inc/template-tags.php:46
+#, php-format
+msgid "by %s"
+msgstr "автор поста %s"
+
 #: inc/template-tags.php:65 inc/template-tags.php:71
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #: inc/template-tags.php:67
 #, php-format
 msgid "Posted in %1$s"
-msgstr ""
+msgstr "Опубликовано в %1$s"
 
 #: inc/template-tags.php:73
 #, php-format
@@ -316,10 +326,12 @@ msgid ""
 "<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
 "Edit"
 msgstr ""
+"<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
+"Изменить"
 
 #: inc/template-tags.php:214
 msgid "Your comment is awaiting moderation."
-msgstr "Ваш комментарий на модерации"
+msgstr "Ваш комментарий на модерации."
 
 #: search.php:19
 #, php-format
@@ -366,3 +378,64 @@ msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
+
+#~ msgid ""
+#~ "The best WordPress framework theme based on the most powerful frameworks "
+#~ "in the world: \"_s\" (by Automattic, the main people behind WordPress "
+#~ "development), Twitter Bootstrap (the most popular HTML, CSS, and JS "
+#~ "framework for developing responsive, mobile first projects on the web) "
+#~ "and Font Awesome (or Fontawesome, a full suite of 675+ pictographic icons "
+#~ "for easy scalable vector graphics on websites). This theme, like "
+#~ "WordPress, is licensed under the GPL. You can use this theme as base for "
+#~ "your next WordPress theme project and you are allowed to remove the link "
+#~ "at the footer or do whatever you want. Your feedback on how we can "
+#~ "continuously improve this WordPress Bootstrap framework theme will be "
+#~ "highly appreciated. Page templates includes Right-sidebar (default page "
+#~ "template), Front-page without container, Left-Sidebar, Full-Width page "
+#~ "with title, Full width page without title and container, Blank page "
+#~ "without container for landing page websites. Other features - Currently "
+#~ "using Bootstrap v4.6.0. , Widgetized footer area, WooCommerce ready, "
+#~ "Compatible with Contact Form 7, Compatible with Visual Composer, "
+#~ "Compatible with Elementor Page Builder. This theme will be an active "
+#~ "project which we will update from time to time. Check this page regularly "
+#~ "for the updates."
+#~ msgstr ""
+#~ "Лучшая фреймворк тема для чистого кода на WordPress, основанная на самых "
+#~ "мощных фреймворках в мире: \"_s\" (по Automattic, основные люди за "
+#~ "WordPress развития), Twitter Bootstrap (самый популярный HTML, CSS, и JS "
+#~ "рамки для разработки отзывчивых, мобильных первых проектов в Интернете) и "
+#~ "Шрифт Awesome (или Fontawesome, полный набор 675 \"пиктографические "
+#~ "иконки для легкой масштабируемой векторной графики на веб-сайтах). Эта "
+#~ "тема, как WordPress, лицензируется в соответствии с GPL. Вы можете "
+#~ "использовать эту тему в качестве основы для вашего следующего проекта "
+#~ "WordPress темы, и вы можете удалить ссылку на автора в футере  или делать "
+#~ "все, что вы хотите. Ваши отзывы о том, как мы можем постоянно улучшать "
+#~ "эту тему WordPress будут высоко оценены. Шаблоны страниц включают правую "
+#~ "боковую панель (шаблон страницы по умолчанию), Front-page без контейнера, "
+#~ "Левую боковую панель, страницу Full-Width с заголовком, страницу полной "
+#~ "ширины без заголовка и контейнера, пустую страницу без контейнера для веб-"
+#~ "сайтов посадочных страниц. Другие функции - В настоящее время с помощью "
+#~ "Bootstrap v4.6.0. , Widgetized footer области, WooCommerce готовы, "
+#~ "совместимы с контактной формой 7, совместимый с visual Composer, "
+#~ "совместимый с Elementor Page Builder. Эта тема будет активным проектом, "
+#~ "который мы будем обновлять время от времени. Регулярно проверяйте эту "
+#~ "страницу на наличие обновлений."
+
+#~ msgid "Deniss piunoff (Pi-WEB)"
+#~ msgstr "Денис Пиунофф (Pi-WEB)"
+
+#~ msgid "Oops! That page can&rsquo;t be found."
+#~ msgstr "О ла-ла, кажется такой страницы не существут."
+
+#~ msgid ""
+#~ "It looks like nothing was found at this location. Maybe try one of the "
+#~ "links below or a search?"
+#~ msgstr ""
+#~ "Похоже что ничего не было найдено. Советуем опробовать одну из ссылок "
+#~ "внизу или поиск?"
+
+#~ msgid "Most Used Categories"
+#~ msgstr "Наиболее часто используемые категории"
+
+#~ msgid "Try looking in the monthly archives. %1$s"
+#~ msgstr "Попробуйте поискать в ежемесячных архивах. %1$s"

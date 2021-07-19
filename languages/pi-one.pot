@@ -18,6 +18,56 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: .\n"
 
+#. Theme Name of the theme
+msgid "Pi-One"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://piunoff.eu/pi-one"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"The best WordPress framework theme based on the most powerful frameworks in the world: \"_s\" (by "
+"Automattic, the main people behind WordPress development), Twitter Bootstrap (the most popular HTML, CSS, "
+"and JS framework for developing responsive, mobile first projects on the web) and Font Awesome (or "
+"Fontawesome, a full suite of 675+ pictographic icons for easy scalable vector graphics on websites). This "
+"theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress "
+"theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on "
+"how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page "
+"templates includes Right-sidebar (default page template), Front-page without container, Left-Sidebar, Full-"
+"Width page with title, Full width page without title and container, Blank page without container for landing "
+"page websites. Other features - Currently using Bootstrap v4.6.0. , Widgetized footer area, WooCommerce "
+"ready, Compatible with Contact Form 7, Compatible with Visual Composer, Compatible with Elementor Page "
+"Builder. This theme will be an active project which we will update from time to time. Check this page "
+"regularly for the updates."
+msgstr ""
+
+#. Author of the theme
+msgid "Deniss piunoff (Pi-WEB)"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://piunoff.eu/"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:49
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
 #: comments.php:36
 #, php-format
 msgid "One thought on &ldquo;%1$s&rdquo;"
