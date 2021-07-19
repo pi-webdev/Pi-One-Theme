@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: 1.0.2\n"
 "Report-Msgid-Bugs-To: https://piunoff.eu/support/pi-one\n"
 "POT-Creation-Date: 2021-07-19 22:39+0300\n"
-"PO-Revision-Date: 2021-07-19 20:48+0000\n"
+"PO-Revision-Date: 2021-07-19 21:56+0000\n"
 "Last-Translator: Denis <Piunoff>\n"
 "Language-Team: Русский\n"
 "Language: ru_RU\n"
@@ -36,18 +36,6 @@ msgid ""
 msgstr ""
 "<span style=\"margin-left: 5px;\" class=\"glyphicon glyphicon-edit\"></span> "
 "Изменить"
-
-#. translators: %s: post date.
-#: inc/template-tags.php:30
-msgctxt "post date"
-msgid "Posted on %s"
-msgstr "Дата поста %s"
-
-#. translators: %s: post author.
-#: inc/template-tags.php:46
-msgctxt "post author"
-msgid "by %s"
-msgstr "автор поста %s"
 
 #: functions.php:239
 msgid "Achive page Hero section widget."
@@ -231,15 +219,27 @@ msgstr "Pi-One Вордпресс тема"
 msgid "Pingback:"
 msgstr "ПиНгбэк:"
 
+#. translators: %s: post author.
+#: inc/template-tags.php:46
+msgctxt "post author"
+msgid "by %s"
+msgstr "Автор поста %s"
+
 #: comments.php:102
 msgid "Post Comment"
 msgstr "Оставить комментарий"
+
+#. translators: %s: post date.
+#: inc/template-tags.php:30
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Дата поста %s"
 
 #: inc/template-tags.php:67
 #, php-format
 #| msgid "Posted on %s"
 msgid "Posted in %1$s"
-msgstr "Дата поста %1$s"
+msgstr "Добавлено в %1$s"
 
 #: inc/customizer.php:25
 msgid "Preset Styles"
@@ -299,7 +299,7 @@ msgstr ""
 #: inc/template-tags.php:73
 #, php-format
 msgid "Tagged %1$s"
-msgstr ""
+msgstr "Тэги поста"
 
 #: inc/customizer.php:223
 msgid "Text Color"
