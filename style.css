@@ -779,17 +779,17 @@ border: 2px solid black;
 
 #content.site-content {
   padding-bottom: 0;
-  padding-top: 7rem;
+  padding-top: 5rem;
 }
 
 #content.full-width {
   padding-bottom: 0;
-  padding-top: 5rem;
+  padding-top: 0rem;
 }
 
 #content.full-width-title {
   padding-bottom: 0;
-  padding-top: 7.5rem;
+  padding-top: 3rem;
 }
 
 .sticky .entry-title::before {
