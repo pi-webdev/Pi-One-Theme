@@ -559,7 +559,7 @@ a .nav-link {
 }
 
 .navigation.post-navigation {
-  padding-top: 1.875rem;
+  margin-top: 3rem;
 }
 
 .post-navigation .nav-previous a,
@@ -838,6 +838,10 @@ border: 2px solid black;
 
 .entry-title > a {
   color: inherit;
+}
+
+.entry-footer {
+  margin-top: 3rem
 }
 
 /*--------------------------------------------------------------
