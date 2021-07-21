@@ -59,6 +59,10 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.1.3 - 21.07.2021 =
+* Add single post sidebar widget
+* Add new widgets design
+
 = 1.1.2 - 19.07.2021 =
 * Add Multilingual support
 * Add Russian Language

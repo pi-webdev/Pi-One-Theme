@@ -4,7 +4,7 @@ Theme URI: https://piunoff.eu/pi-one-wordpress-framework-theme/
 Author: Pi-WEB
 Author URI: https://piunoff.eu/
 Description: WordPress framework theme with clear code based on Twitter Bootstrap (the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web) and Ionicons . This theme, like WordPress, is licensed under the GPL. You can use this theme as base for your next WordPress theme project and you are allowed to remove the link at the footer or do whatever you want. Your feedback on how we can continuously improve this WordPress Bootstrap framework theme will be highly appreciated. Page templates includes Right-sidebar (default page template), Full-Width page with title, Full width page without title and container, Blanc page template. Other features - Currently using Bootstrap v4.6.0. , Widgetized footer, header and above content areas, WooCommerce ready, Compatible with Contact Form 7, Visual Composer, Elementor Page builders. Easy integration with Bootstrap studio created sites.
-Version: 1.1.2
+Version: 1.1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: pi-one
@@ -296,7 +296,7 @@ label{
 #masthead {
   margin-bottom: 0;
   background-color: #427bff ;
-  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15), inset 0 -1px 0 rgba(0,0,0,.1);
   padding: .74rem 1rem;
 }
 
@@ -463,7 +463,7 @@ body:not(.theme-preset-active) #masthead .navbar-nav > li.current_page_item > a 
     border-radius: 6px 0 6px 6px;
 }
 a .nav-link {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 /* Small menu. */
@@ -769,7 +769,14 @@ border: 2px solid black;
     border: 2px solid;
 
   }
-
+.sidebarwidget {
+  border: 1px solid cornflowerblue;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin-bottom: 3rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  background-color: white;
+}
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/

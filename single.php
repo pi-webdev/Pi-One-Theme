@@ -32,8 +32,7 @@ get_header(); ?>
 		endwhile; // End of the loop.
 		?>
       </div>
-      <?php
-get_sidebar();?>
+      <?php get_sidebar('sp');?>
      </div>
 </div>
 	</section>

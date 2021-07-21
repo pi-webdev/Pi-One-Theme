@@ -152,7 +152,17 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Sidebar 1', 'pi-one' ),
         'id'            => 'sidebar-1',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s sidebarwidget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title d-flex justify-content-center">',
+        'after_title'   => '</h3>',
+    ) );
+	//Blog sidebar//
+	register_sidebar( array(
+        'name'          => esc_html__( 'Single Post Sidebar', 'pi-one' ),
+        'id'            => 'sp-sidebar',
+        'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s sidebarwidget">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3 class="widget-title p-3">',
         'after_title'   => '</h3>',
