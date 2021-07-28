@@ -769,14 +769,11 @@ border: 2px solid black;
     border: 2px solid;
 
   }
-.sidebarwidget {
-  border: 1px solid cornflowerblue;
-  border-radius: 6px;
-  padding: 1.25rem;
-  margin-bottom: 3rem;
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-  background-color: white;
-}
+
+
+/*------------stickysidebar----*/
+
+
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/

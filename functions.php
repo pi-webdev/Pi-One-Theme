@@ -90,9 +90,6 @@ if ( ! function_exists( 'pione_theme_setup' ) ) :
 			)
 				);
 
-				//Cust Header//
-		add_theme_support( 'custom-header' );
-
 		// Add theme support for selective refresh for widgets.
 		add_theme_support( 'customize-selective-refresh-widgets' );
 
@@ -152,7 +149,7 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Sidebar 1', 'pi-one' ),
         'id'            => 'sidebar-1',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s sidebarwidget">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3 class="widget-title d-flex justify-content-center">',
         'after_title'   => '</h3>',
@@ -162,7 +159,7 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Single Post Sidebar', 'pi-one' ),
         'id'            => 'sp-sidebar',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s sidebarwidget">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3 class="widget-title p-3">',
         'after_title'   => '</h3>',

@@ -69,14 +69,6 @@ if ( ! defined( 'ABSPATH' ) ) {
                                    ));
                       ?>
                      <!--End top menu-->
-                      <?php if( get_theme_mod( 'pione_search_nav_display', 'show' ) == 'show' ) : ?>
-                      <div class="search-form ml-2 mr-2 ml-auto"><?php get_search_form( );?></div>
-                      <?php endif ?>
-                    <!--End search form-->
-                      <?php if( get_theme_mod( 'pione_button_nav_display_setting', 'show' ) == 'show' ) : ?>
-                        <div><a href="<?php echo esc_html( get_theme_mod( 'pione_button_nav_url', '') ); ?>" class="btn btn-success btn-md ml-2 mt-2  mt-xl-0 ml-auto "><?php echo esc_html( get_theme_mod( 'pione_button_nav_text', 'pi-one' ) );?></a></div>
-                        <?php endif ?>
-                        <!--End button-->
 
                       </div>
                </nav>
@@ -86,44 +78,4 @@ if ( ! defined( 'ABSPATH' ) ) {
             <!--fixed navbar end-->
 
 	</header><!-- #masthead -->
-    <?php if(is_front_page() && !get_theme_mod( 'header_banner_visibility' )): ?>
-        <div id="sub-header" style="background: url(<?php echo get_custom_header ()->url; ?>)" >
-            <div class="container sb-content">
-            <h1 class="text-center">
-                    <?php
-                    if(get_theme_mod( 'header_banner_title_setting' )){
-                        echo esc_attr( get_theme_mod( 'header_banner_title_setting' ) );
-                    }else{
-                        echo esc_html__('Bootstrap Framework Theme','pi-one');
-                    }
-                    ?>
-                </h1>
-                <div class="col-8 offset-2">
-                  <h2 class="text-center">
-                    <?php
-                    if(get_theme_mod( 'header_banner_subtitle_setting' )){
-                        echo esc_attr( get_theme_mod( 'header_banner_subtitle_setting' ) );
-                    }else{
-                        echo esc_html__('WordPress framework theme with clear code based on Twitter Bootstrap 4','pi-one');
-                    }
-                    ?>
-                  </h2>
-                </div>
-                  <div class="col-8 offset-2">
-                        <p><?php
-                    if(get_theme_mod( 'header_banner_paragraph_setting' )){
-                        echo esc_attr( get_theme_mod( 'header_banner_paragraph_setting' ) );
-                    }else
-                    ?>
-                    </p>
-                 </div>
-                 <div><?php if( get_theme_mod( 'pione_button_display', 'show' ) == 'show' ) : ?>
-                        <a href="<?php echo esc_html( get_theme_mod( 'pione_button_url', '' ) ) ?>" class="btn btn-primary btn-lg mx-auto mt-5 mb-5" target="_blank"><?php echo esc_html( get_theme_mod( 'pione_button_text', 'Touch me' ) ) ?></a>
-                        <?php endif ?>
-                    </div>
-                    <a href="#content" class="page-scroller"><ion-icon name="chevron-down-outline"></ion-icon></a>
-                    </div><!--container-->
-
-        </div><!--#subheader -->
-
-    <?php endif; ?>
+    
