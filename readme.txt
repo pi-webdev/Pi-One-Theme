@@ -59,6 +59,10 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.2 - 28.07.2021 =
+* Removed Custom header
+* Removed Button in top menu
+
 = 1.1.3 - 21.07.2021 =
 * Add single post sidebar widget
 * Add new widgets design
