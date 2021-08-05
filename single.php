@@ -11,7 +11,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
 
-get_header(); ?>
+get_header('blog'); ?>
 
 <section id="content" class="site-content">
   <div class="container">
