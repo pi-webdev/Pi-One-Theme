@@ -213,8 +213,8 @@ msgstr ""
 msgid "Background Color"
 msgstr ""
 
-#: inc/customizer.php:232
-msgid "This is a section for the header banner Background Color."
+#: inc/customizer.php:81
+msgid "Blog header color option"
 msgstr ""
 
 #: inc/customizer.php:240
@@ -247,10 +247,6 @@ msgstr ""
 
 #: inc/customizer.php:280
 msgid "Upload Logo (replaces text)"
-msgstr ""
-
-#: inc/customizer.php:288
-msgid "Top Menu Settings"
 msgstr ""
 
 #: inc/customizer.php:304

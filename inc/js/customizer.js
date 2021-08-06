@@ -40,11 +40,6 @@
 		} );
 	} );
 
-	// Button Settings
-	wp.customize( 'pi_button_text', function( value ) {
-		value.bind( function( newval ) {
-		  $( '#intro a' ).html( newval );
-		} );
-	  } );
+
 	  
 } )( jQuery );

@@ -1,4 +1,4 @@
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="blog-post border-bottom border-primary pb-4 mb-4">
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="blog-post border-bottom pb-4 mb-4">
 	  <figure class=" post thumbnail col-md-4 m-0 p-0">
                               <?php if ( has_post_thumbnail() ): ?>
                               <?php the_post_thumbnail('medium', array ('class' => 'rounded img-fluid'));?>

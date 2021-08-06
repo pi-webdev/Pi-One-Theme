@@ -17,7 +17,10 @@
  * @uses pione_theme_header_style()
  */
 function pione_theme_custom_header_setup() {
-	add_theme_support('custom-header');
+	add_theme_support('custom-header', apply_filters( 'pione_theme_custom_header_args', array(
+		'default-text-color'     => 'fff',
+		'wp-head-callback'       => 'pione_theme_header_style',
+	) ) );
 }
 add_action( 'after_setup_theme', 'pione_theme_custom_header_setup' );
 

@@ -59,6 +59,11 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.2.1 - 06.08.2021 =
+* Add separated Blog header color setting in customizer
+* Fixed header text color bug
+* Fixed post date bug
+
 = 1.2 - 28.07.2021 =
 * Removed Custom header
 * Removed Button in top menu

@@ -36,7 +36,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 ?>
 
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'pi-one' ); ?></a>
-    <header id="masthead" class="site-header-blog <?php echo pione_theme_bg_blog_class(); ?>">
+    <header id="masthead" class="site-header <?php echo pione_theme_blogheadercolor_class() ?>">
     <?php get_template_part( 'sidebar-header');?>
             <div class="container-fluid">
               <nav class="navbar navbar-expand-xl p-0">
@@ -58,14 +58,14 @@ if ( ! defined( 'ABSPATH' ) ) {
                        <?php
                         wp_nav_menu(array(
                         'theme_location'    => 'primary',
-                         'container'       => false,
-                         'container_id'    => false,
-                         'container_class' => false,
-                          'menu_id'         => false,
-                          'menu_class'      => 'navbar-nav mr-auto pr-5',
-                          'depth'           => 3,
-                           'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
-                          'walker'          => new WP_Bootstrap_Navwalker()
+                        'container'       => false,
+                        'container_id'    => false,
+                        'container_class' => false,
+                        'menu_id'         => false,
+                        'menu_class'      => 'navbar-nav mr-auto pr-5',
+                        'depth'           => 3,
+                        'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
+                        'walker'          => new WP_Bootstrap_Navwalker()
                                    ));
                       ?>
                      <!--End top menu-->

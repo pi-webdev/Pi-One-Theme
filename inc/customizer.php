@@ -31,7 +31,7 @@ function pione_customize_register( $wp_customize ) {
         )
     );
 
-    //Theme Option
+    //Theme Option start
     $wp_customize->add_setting( 'theme_option_setting', array(
         'default'   => 'default',
         'type'       => 'theme_mod',
@@ -69,12 +69,35 @@ function pione_customize_register( $wp_customize ) {
         )
     ) ) );
 
+    //theme option end
+
+    $wp_customize->add_setting( 'blog_theme_option_setting', array(
+        'default'   => 'default',
+        'type'       => 'theme_mod',
+        'capability' => 'edit_theme_options',
+        'sanitize_callback' => 'wp_filter_nohtml_kses',
+    ) );
+    $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'blog_theme_option_setting', array(
+        'label' => __( 'Blog header color option', 'pi-one' ),
+        'section'    => 'typography',
+        'settings'   => 'blog_theme_option_setting',
+        'type'    => 'select',
+        'choices' => array(
+            'transparent' => 'Transparent',
+            'primary' => 'Primary',
+            'dark' => 'Dark',
+            'light' => 'Light',
+            'danger' => 'Danger',
+        )
+    ) ) );
+
     $wp_customize->add_setting( 'preset_style_setting', array(
         'default'   => 'default',
         'type'       => 'theme_mod',
         'capability' => 'edit_theme_options',
         'sanitize_callback' => 'wp_filter_nohtml_kses',
     ) );
+    //blog header background settings
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'preset_style_setting', array(
         'label' => __( 'Typography', 'pi-one' ),
         'section'    => 'typography',
@@ -94,8 +117,7 @@ function pione_customize_register( $wp_customize ) {
     ) ) );
 
     //Site Name Text Color
-   $wp_customize->add_section(
-        'site_name_text_color',
+   $wp_customize->add_section('site_name_text_color',
         array(
             'title' => __( 'Text Color', 'pi-one' ),
             'description' => __( 'This is a section for the Site Name text Color.', 'pi-one' ),
