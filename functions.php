@@ -32,6 +32,9 @@ if ( ! function_exists( 'pione_theme_setup' ) ) :
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support( 'automatic-feed-links' );
 
+		// Enable support for Template editor function  
+		add_theme_support( 'block-templates' );
+
 		/*
 		 * Let WordPress manage the document title.
 		 * By adding theme support, we declare that this theme does not use a
