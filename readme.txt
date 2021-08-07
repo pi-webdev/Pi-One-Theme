@@ -58,6 +58,9 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.2.2 - 07.08.2021 =
+* Add Template editor function
+
 = 1.2.1 - 06.08.2021 =
 * Add separated Blog header color setting in customizer
 * Fixed header text color bug
