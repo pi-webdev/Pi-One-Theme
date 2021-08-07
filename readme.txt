@@ -32,7 +32,6 @@ Other features:
 * WooCommerce ready
 * Compatible with Contact Form 7
 * Compatible with WP Forms
-* Toolset 
 * Bootstrap studio websites integration
 * Compatible with page builders (Elementor, VC)
 
@@ -55,7 +54,7 @@ This theme will be an active project which we will update from time to time. Che
 * Bootstrap icons Free, high quality, open source icon library with over 1,300 icons. v1.5.0, https://github.com/twbs/icons/releases/tag/v1.5.0
 * Ionicons, v2.0.0 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/ https://twitter.com/benjsperry  https://twitter.com/ionicframework MIT License: https://github.com/driftyco/ionicons
 * Theme options by Bootswatch v4.0.0 Homepage: https://bootswatch.com Copyright 2012-2018 Thomas Park Licensed under MIT Based on Bootstrap
-* Images: Screenshot by Deniss P, https://piunoff.eu, Public domain. Default thumbnails from https://picsum.photos/
+* Images: Default thumbnails from https://picsum.photos/
 
 == Changelog ==
 
