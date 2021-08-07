@@ -33,7 +33,7 @@ jQuery( function ( $ ) {
 
     // Adding Class to WP Forms
     $('.wpforms-field-name-first, .wpforms-field-name-last, .wpforms-field-medium, .wpforms-field-large, .wpforms-field-small').addClass('form-control');
-    $('.wpforms-submit, .wpforms-form button[type=submit]').addClass('btn btn-primary');
+    $('.wpforms-submit, .wpforms-form button').addClass('btn btn-primary');
    
 
     // Adding Class to Woocommerce form
