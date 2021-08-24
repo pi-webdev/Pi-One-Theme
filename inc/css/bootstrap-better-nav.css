@@ -27,7 +27,7 @@ body.side-menu-visible #side-menu {
 
 #side-menu .nav-link {
   color:#333;
-  font-size:16px;
+  font-size:1.3em;
   font-weight:600;
   padding:12px 0;
 }
@@ -64,5 +64,21 @@ body.side-menu-visible #side-menu.side-menu-left {
 #side-menu .navbar-nav {
   padding-right:0px!important;
     
+  }
+
+  #side-menu .dropdown-item {
+    color:white;
+    margin-bottom:1.5em;
+    font-size:1.3em;
+  }
+  #side-menu .dropdown-item:hover {
+    color:white;
+    text-decoration:none;
+  }
+  #side-menu .dropdown-menu {
+    padding:15px;
+    color:white;
+    background-color:#36464a;
+    z-index:9999
   }
 
