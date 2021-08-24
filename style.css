@@ -509,27 +509,6 @@ a .nav-link {
     top: 1.375rem;
   }
 }
-@media screen and (max-width: 991px) {
-  .navbar-nav .dropdown-menu {
-    border: medium none;
-    margin-left: 1.250rem;
-    padding: 0;
-  }
-
-  .dropdown-menu li a {
-    padding: 0;
-  }
-
-  #masthead .navbar-nav > li > a {
-    padding-bottom: 0.625rem;
-    padding-top: 0.313rem;
-  }
-
-  .navbar-light .navbar-toggler {
-    border: medium none;
-    outline: none;
-  }
-}
 .site-main .comment-navigation,
 .site-main .posts-navigation,
 .site-main .post-navigation {
@@ -1165,7 +1144,7 @@ body:not(.theme-preset-active) footer#colophon {
   }
 }
 
-@media screen and (max-width: 1199px) {
+/*@media screen and (max-width: 1199px) {
   .navbar-dark .dropdown-item {
     color: #fff;
   }
@@ -1174,7 +1153,7 @@ body:not(.theme-preset-active) footer#colophon {
     box-shadow: none;
     border: none;
   }
-}
+}*/
 /*--------------------------------------------------------------
 ## Netbook
 --------------------------------------------------------------*/
