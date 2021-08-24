@@ -52,11 +52,13 @@ This theme will be an active project which we will update from time to time. Che
 * Bootstrap http://getbootstrap.com, (C) 2011-2015 Twitter, Inc., [MIT] (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * WP Bootstrap Navwalker https://github.com/wp-bootstrap/wp-bootstrap-navwalker, [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
 * Bootstrap icons Free, high quality, open source icon library with over 1,300 icons. v1.5.0, https://github.com/twbs/icons/releases/tag/v1.5.0
-* Ionicons, v2.0.0 Created by Ben Sperry for the Ionic Framework, http://ionicons.com/ https://twitter.com/benjsperry  https://twitter.com/ionicframework MIT License: https://github.com/driftyco/ionicons
 * Theme options by Bootswatch v4.0.0 Homepage: https://bootswatch.com Copyright 2012-2018 Thomas Park Licensed under MIT Based on Bootstrap
 * Images: Default thumbnails from https://picsum.photos/
 
 == Changelog ==
+
+= 1.3 - 24.08.2021 =
+* Add OFF-Canvas mobile menu
 
 = 1.2.2 - 07.08.2021 =
 * Add Template editor function

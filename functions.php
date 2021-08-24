@@ -273,6 +273,8 @@ function pione_one_scripts() {
 // load theme styles
 // load BS styles
 wp_enqueue_style( 'pi-one-style', get_stylesheet_uri() );
+wp_enqueue_style( 'pi-one-bootstrap-better-nav-css', get_template_directory_uri() . '/inc/css/bootstrap-better-nav.min.css' );
+
 if(get_theme_mod( 'theme_option_setting' ) && get_theme_mod( 'theme_option_setting' ) !== 'default') {
 	wp_enqueue_style( 'pi-one-default'.get_theme_mod( 'theme_option_setting' ), get_template_directory_uri() . '/inc/css/presets/theme-option/'.get_theme_mod( 'theme_option_setting' ).'.css', false, '' );
 }
@@ -304,6 +306,14 @@ if(get_theme_mod( 'preset_style_setting' ) && get_theme_mod( 'preset_style_setti
 	wp_enqueue_style( 'pi-one'.get_theme_mod( 'preset_style_setting' ), get_template_directory_uri() . '/inc/css/presets/typography/'.get_theme_mod( 'preset_style_setting' ).'.css', false, '' );
 }
 
+// отменяем зарегистрированный jQuery
+wp_deregister_script('jquery-core');
+wp_deregister_script('jquery');
+
+// регистрируем
+wp_register_script( 'jquery-core', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js', false, null, true );
+wp_register_script( 'jquery', false, array('jquery-core'), null, true );
+
 // подключаем
 wp_enqueue_script( 'jquery' );
 
@@ -318,7 +328,7 @@ if ( get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
 	wp_enqueue_script('pi-one-bootstrap', get_template_directory_uri() . '/inc/js/bootstrap.bundle.min.js', array(), '', true );
 
 }
-wp_enqueue_script('ionicons', 'https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js', false, null, true);
+wp_enqueue_script('pi-one-bootstrap-better-nav-js', get_template_directory_uri() . '/inc/js/bootstrap-better-nav.min.js', array(), '', true );
 wp_enqueue_script('pi-one-theme', get_template_directory_uri() . '/inc/js/theme-script.min.js', false, null, true );
 wp_enqueue_script( 'pi-one-skip-link-focus-fix', get_template_directory_uri() . '/inc/js/skip-link-focus-fix.min.js', array(), '', true );
 
@@ -374,9 +384,11 @@ require get_template_directory() . '/inc/customizer.php';
 
 /**Woocommerce**/
 require get_template_directory() . '/inc/woocommerce/woocommerce.php';
-/**
- * Register Custom Navigation Walker
- */
+
+/**load TGM */
+require get_template_directory() . '/inc/tgm/tgmconnect.php';
+
+/*** Register Custom Navigation Walker*/
 function pione_one_navigation(){
 	require_once get_template_directory() . '/inc/pione-wp-bootstrap-navwalker.php';
 }

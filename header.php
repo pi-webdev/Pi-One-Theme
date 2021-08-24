@@ -39,7 +39,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     <header id="masthead" class="site-header <?php echo pione_theme_bg_class(); ?>">
     <?php get_template_part( 'sidebar-header');?>
             <div class="container-fluid">
-              <nav class="navbar navbar-expand-xl p-0">
+              <nav class="navbar navbar-expand-md better-bootstrap-nav-left p-0">
                  <div class="navbar-brand">
                     <?php if ( get_theme_mod( 'pione_theme_logo' ) ): ?>
                         <a href="<?php echo esc_url( home_url( '/' )); ?>">
@@ -62,7 +62,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                          'container_id'    => false,
                          'container_class' => false,
                           'menu_id'         => false,
-                          'menu_class'      => 'navbar-nav mx-auto pr-5',
+                          'menu_class'      => 'nav navbar-nav mx-auto pr-5',
                           'depth'           => 3,
                            'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
                           'walker'          => new WP_Bootstrap_Navwalker()
@@ -75,7 +75,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
             </div>
-            <!--fixed navbar end-->
+            <!--navbar end-->
 
 	</header><!-- #masthead -->
     
