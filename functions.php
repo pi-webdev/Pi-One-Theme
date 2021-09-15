@@ -376,9 +376,6 @@ require get_template_directory() . '/includes/customizer.php';
 /**Woocommerce**/
 require get_template_directory() . '/includes/woocommerce/woocommerce.php';
 
-/**load TGM */
-require get_template_directory() . '/includes/tgm/tgmconnect.php';
-
 /*** Register Custom Navigation Walker*/
 function pione_one_navigation(){
 	require_once get_template_directory() . '/includes/pione-wp-bootstrap-navwalker.php';

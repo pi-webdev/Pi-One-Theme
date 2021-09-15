@@ -730,10 +730,10 @@ border: 2px solid black;
 .widget_categories .nav-link {
   display: inline-block;
 }
-.search-submit {
+/*.search-submit {
 	position: absolute;
 	right: -9999rem;
-}
+}*/
 
   #masthead .search-submit:focus {
     right:0;

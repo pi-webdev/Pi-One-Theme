@@ -74,7 +74,7 @@ function pione_menu_cart_item() {
 	$css_class = 'nav-link ';
 
 	if ( $cart_count ) {
-		$url  = WC()->cart->get_cart_url();
+		$url  = wc_get_cart_url();
 	} else {
 		$url  = wc_get_page_permalink( 'shop' );
 	}
