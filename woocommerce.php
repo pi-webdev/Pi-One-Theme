@@ -16,10 +16,10 @@
  <div id="content" class="site-content">
    <div class="container">
  	<div class="row">
- 	  <main class="col">
+ 	  <main class="col card shadow">
  			<?php woocommerce_content(); ?>
  	  </main>
- 			<?php get_sidebar( );?>
+ 			<?php get_sidebar('woo');?>
  	</div>
    </div>
  		</div><!--Content-->

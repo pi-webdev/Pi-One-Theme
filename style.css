@@ -984,17 +984,31 @@ object {
 .form-row {
   display: block!important;
 }
+
+.woocommerce-MyAccount-content {
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+}
 .woocommerce-MyAccount-navigation > ul {
 display: flex;
 flex-direction: column;
 flex-wrap: wrap;
 list-style: none;
+padding-left: 0;
+border: 1px solid rgba(0,0,0,.125);
+border-radius: 0.25rem;
+border-bottom: 0;
 }
 .woocommerce-MyAccount-navigation > ul li {
   padding: 1rem;
-  border: 1px solid gray;
+  border-bottom: 1px solid rgba(0,0,0,.125);
+  width: 100%;
 }
-
+.woocommerce-MyAccount-navigation > ul > li > a {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
 .woocommerce-MyAccount-content .col-1,
 .woocommerce-MyAccount-content .col-2 {
   max-width: 100%;
@@ -1053,6 +1067,7 @@ a .bi-bag {
 # Footer
 --------------------------------------------------------------*/
 footer#colophon {
+  margin-top: 2rem;
   font-size: 85%;
 }
 body:not(.theme-preset-active) footer#colophon {
