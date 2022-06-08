@@ -169,7 +169,7 @@ function pione_theme_widgets_init() {
     ) );
 	//top-menu//
 	register_sidebar( array(
-        'name'          => esc_html__( 'Top menu contact widget left area', 'pi-one' ),
+        'name'          => esc_html__( 'Above top menu left area', 'pi-one' ),
         'id'            => 'contact-nav',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
@@ -178,7 +178,7 @@ function pione_theme_widgets_init() {
         'after_title'   => '</h3>',
     ) );
 	register_sidebar( array(
-        'name'          => esc_html__( 'Top menu social icon widget middle area', 'pi-one' ),
+        'name'          => esc_html__( 'Above top menu middle area', 'pi-one' ),
         'id'            => 'social-nav',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
@@ -187,8 +187,18 @@ function pione_theme_widgets_init() {
         'after_title'   => '</h3>',
     ) );
 	register_sidebar( array(
-        'name'          => esc_html__( 'Top menu cart  widget right area', 'pi-one' ),
+        'name'          => esc_html__( 'Above top menu right area', 'pi-one' ),
         'id'            => 'cart-nav',
+        'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
+	//Widget after top menu right//
+	register_sidebar( array(
+        'name'          => esc_html__( 'After top menu right area', 'pi-one' ),
+        'id'            => 'tm-right',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget'  => '</div>',
@@ -307,7 +317,7 @@ if(get_theme_mod( 'preset_style_setting' ) && get_theme_mod( 'preset_style_setti
 	wp_enqueue_style( 'pi-one'.get_theme_mod( 'preset_style_setting' ), get_template_directory_uri() . '/includes/css/presets/typography/'.get_theme_mod( 'preset_style_setting' ).'.css', false, '' );
 }
 
-/*// отменяем зарегистрированный jQuery
+// отменяем зарегистрированный jQuery
 wp_deregister_script('jquery-core');
 wp_deregister_script('jquery');
 
@@ -317,7 +327,7 @@ wp_register_script( 'jquery', false, array('jquery-core'), null, true );
 
 // подключаем
 wp_enqueue_script( 'jquery' );
-*/
+
 // Internet Explorer HTML5 support
 wp_enqueue_script( 'html5hiv',get_template_directory_uri().'/includes/js/html5.js', array(), '3.7.0', false );
 wp_script_add_data( 'html5hiv', 'conditional', 'lt IE 9' );

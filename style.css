@@ -274,6 +274,11 @@ table {
   width: 100%;
 }
 
+ul {
+  list-style: none;
+  list-style-position: inside;
+}
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -567,9 +572,17 @@ a .nav-link {
 # Top Nav section
 --------------------------------------------------------*/
 
-body:not(.theme-preset-active) .top-nav-left .top-nav-middle .top-nav-right  {
-  color: #eee;
-  height: auto;
+/*-------------------------------------------------
+# Right nav widgets
+--------------------------------------------------------*/
+.widget ul li {
+  padding: 1rem;
+  border-bottom: 1px solid gainsboro;
+  width: 100%;
+  text-transform: uppercase;
+}
+.widget ul {
+  padding-left: 0;
 }
 
 
@@ -699,11 +712,7 @@ a img.aligncenter {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
-.widget {
-  margin: auto;
-  font-size: 1rem;
-  /* Make sure select elements fit in widgets. */
-}
+
 .widget select {
   max-width: 100%;
 }
@@ -1213,4 +1222,29 @@ body:not(.theme-preset-active) footer#colophon {
   html {
     font-size: 75%;
   }
+}
+/*------------------------------
+## Test div
+---------------------*/
+
+.red-square-150 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+
+}
+.gray-rectangle-800 {
+  width: 800px;
+  height:90px;
+  background-color: gray;
+}
+.rectangle-200 {
+  width: 200px;
+  height:90px;
+  background-color: red;
+}
+.rectangle-600 {
+  width: 200px;
+  height:90px;
+  background-color: red;
 }
