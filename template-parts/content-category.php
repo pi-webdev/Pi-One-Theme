@@ -32,7 +32,7 @@
            
 		   <div><a href="<?php the_permalink()?>" class="btn btn-primary mt-3 mb-4" type="button"><?php echo esc_html__( 'Read more...', 'pi-one');?></a></div>
 
-			<?wp_link_pages( array(
+			<?php wp_link_pages( array(
 				'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'pi-one' ),
 				'after'  => '</div>',
 			) );

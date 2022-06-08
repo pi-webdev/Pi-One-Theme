@@ -297,7 +297,7 @@ if(get_theme_mod( 'preset_style_setting' ) && get_theme_mod( 'preset_style_setti
 	wp_enqueue_style( 'pi-one'.get_theme_mod( 'preset_style_setting' ), get_template_directory_uri() . '/includes/css/presets/typography/'.get_theme_mod( 'preset_style_setting' ).'.css', false, '' );
 }
 
-// отменяем зарегистрированный jQuery
+/*// отменяем зарегистрированный jQuery
 wp_deregister_script('jquery-core');
 wp_deregister_script('jquery');
 
@@ -307,7 +307,7 @@ wp_register_script( 'jquery', false, array('jquery-core'), null, true );
 
 // подключаем
 wp_enqueue_script( 'jquery' );
-
+*/
 // Internet Explorer HTML5 support
 wp_enqueue_script( 'html5hiv',get_template_directory_uri().'/includes/js/html5.js', array(), '3.7.0', false );
 wp_script_add_data( 'html5hiv', 'conditional', 'lt IE 9' );
