@@ -981,6 +981,19 @@ object {
 .variations_form .variations .value > select {
   margin-bottom: 0.625rem;
 }
+.form-row {
+  display: block!important;
+}
+.woocommerce-MyAccount-navigation > ul {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+list-style: none;
+}
+.woocommerce-MyAccount-navigation > ul li {
+  padding: 1rem;
+  border: 1px solid gray;
+}
 
 .woocommerce-MyAccount-content .col-1,
 .woocommerce-MyAccount-content .col-2 {
