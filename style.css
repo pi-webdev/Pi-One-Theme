@@ -594,6 +594,10 @@ a .nav-link {
   text-transform: uppercase;
 }
 
+.sidebar-1 ul li {
+  padding: 0.8rem;
+}
+
 .widget ul li a {
   padding: 0;
 }
@@ -784,6 +788,11 @@ border: 2px solid black;
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+.post-thumbnail-img {
+  border: 0;
+  border-radius: 4px 0 10px 0;
+} 
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
@@ -808,7 +817,7 @@ border: 2px solid black;
   font-family: "Bootstrap-icons";
   font-size: 1.6rem;
   left: -2.5rem;
-  position: absolute;
+  position:initial;
   top: 0.375rem;
   font-weight: 400;
   color: red;
@@ -857,9 +866,20 @@ border: 2px solid black;
 
 #secondary.site-content {
   padding-bottom: 0;
-  padding-top: 5.3rem;
+  padding-top: 3rem;
 }
-
+#secondary.shop-content {
+  padding-bottom: 0;
+  padding-top: 3rem;
+}
+#secondary.sidebar-1 {
+  padding-bottom: 0;
+  padding-top: 7rem;
+}
+#secondary.single-post {
+  padding-bottom: 0;
+  padding-top: 0rem;
+}
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/

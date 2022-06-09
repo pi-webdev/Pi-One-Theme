@@ -152,7 +152,7 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Sidebar 1', 'pi-one' ),
         'id'            => 'sidebar-1',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4 shadow">',
+        'before_widget' => '<div id="%1$s" class="sidebar-1 widget %2$s card p-3 mb-4 shadow">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',

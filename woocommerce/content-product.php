@@ -25,7 +25,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 }
 ?>
 <li <?php wc_product_class( '', $product ); ?>>
-<div class="card p-1 shadow">
+<div class="card p-0 shadow">
 	<?php
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
@@ -41,7 +41,9 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_product_thumbnail - 10
 	 */
 	do_action( 'woocommerce_before_shop_loop_item_title' );
-
+     ?>
+	 <div class="card-body text-center">
+	 <?php
 	/**
 	 * Hook: woocommerce_shop_loop_item_title.
 	 *
@@ -64,5 +66,6 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
-	?></div>
+	?></div><!--card-body-->
+	</div>
 </li>

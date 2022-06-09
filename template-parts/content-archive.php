@@ -1,12 +1,14 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="blog-post border-bottom pb-4 mb-4">
+  <div class="card shadow">
 	  <figure class=" post thumbnail col-md-4 m-0 p-0">
                               <?php if ( has_post_thumbnail() ): ?>
-                              <?php the_post_thumbnail('medium', array ('class' => 'rounded img-fluid'));?>
+                              <?php the_post_thumbnail('medium', array ('class' => 'post-thumbnail-img img-fluid'));?>
                               <?php else: ?>
-                              <img src="https://picsum.photos/300/300"  class="rounded img-fluid" alt="postthumbnail">
+                              <img src="https://picsum.photos/300/300"  class="post-thumbnail-img img-fluid" alt="postthumbnail">
                               <?php endif;?>
 							  </figure> <!--postthumbnail_if not use picsum photo thumbnail-->
-                     <header class="entry-header">
+							  <div class="card-body">
+							  <header class="entry-header">
 		<?php
 		if ( is_single() ) :
 			the_title( '<h1 class="entry-title">', '</h1>' );
@@ -39,5 +41,6 @@
   <footer class="entry-footer">
 		<?php pione_theme_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-
+			</div><!--end-card-body-->
+ </div><!--end-card-->
 </article><!-- /.blog-category-->

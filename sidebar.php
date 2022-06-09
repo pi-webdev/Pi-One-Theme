@@ -11,6 +11,6 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 return;
 }
 ?>
-<aside id="secondary" class="site-content col-sm-12 col-lg-4">
+<aside id="secondary" class="sidebar-1 col-sm-12 col-lg-4">
   <?php dynamic_sidebar( 'sidebar-1' ); ?>
 </aside> 
