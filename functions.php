@@ -152,9 +152,9 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Sidebar 1', 'pi-one' ),
         'id'            => 'sidebar-1',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4 shadow">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-title d-flex justify-content-center">',
+        'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',
     ) );
 	//Blog sidebar//
@@ -162,9 +162,9 @@ function pione_theme_widgets_init() {
         'name'          => esc_html__( 'Single Post Sidebar', 'pi-one' ),
         'id'            => 'sp-sidebar',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4 shadow">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-title p-3">',
+        'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',
     ) );
 	//top-menu//
@@ -217,12 +217,12 @@ function pione_theme_widgets_init() {
     ) );
 	//Woocommerce sidebar//
 	register_sidebar( array(
-        'name'          => esc_html__( 'woocommerce archive sidebar', 'pi-one' ),
-        'id'            => 'woo',
+        'name'          => esc_html__( 'woocommerce sidebar', 'pi-one' ),
+        'id'            => 'shop',
         'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
-        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4">',
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-2 mb-4 shadow">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3 class="widget-title d-flex justify-content-center">',
+        'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',
     ) );
 	//Footer widgets//

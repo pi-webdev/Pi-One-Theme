@@ -45,6 +45,7 @@ Pi-One is distributed under the terms of the GNU GPL.
 --------------------------------------------------------------*/
 body {
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: auto;
 
 }
@@ -118,10 +119,6 @@ img {
 
 svg:not(:root) {
   overflow: hidden;
-}
-
-figure {
-  margin: 1em 2.5rem;
 }
 
 hr {
@@ -265,7 +262,7 @@ img {
 }
 
 figure {
-  margin: 1em 0;
+  margin: 0;
   /* Extra wide images within figure tags don't overflow the content area. */
 }
 
@@ -279,6 +276,16 @@ ul {
   list-style-position: inside;
 }
 
+ol {
+  margin: 1rem;
+  padding-left: 1rem;
+}
+ol li.wp-block-latest-comments__comment {
+  border-bottom: 1px solid gainsboro;
+}
+ol li.wp-block-latest-comments__comment:last-child {
+  border-bottom: 0;
+}
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -295,6 +302,13 @@ label{
   font-style: italic;
 
 }
+form.wp-block-search {
+  margin: 1rem;
+}
+.wp-block-search__inside-wrapper {
+  border-radius: 4px;
+}
+
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -576,15 +590,20 @@ a .nav-link {
 # Right nav widgets
 --------------------------------------------------------*/
 .widget ul li {
-  padding: 1rem;
   border-bottom: 1px solid gainsboro;
-  width: 100%;
   text-transform: uppercase;
 }
+
+.widget ul li a {
+  padding: 0;
+}
+
 .widget ul {
   padding-left: 0;
 }
-
+.widget ul li:last-child {
+  border-bottom: 0;
+}
 
 
 /*--------------------------------------------------------------
@@ -836,6 +855,11 @@ border: 2px solid black;
   margin-top: 3rem
 }
 
+#secondary.site-content {
+  padding-bottom: 0;
+  padding-top: 5.3rem;
+}
+
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
@@ -1027,8 +1051,22 @@ a .bi-bag {
   padding-right: 10px;
   padding-left: 35px;
 } }
-
-
+/*Description and reviews*/
+#tab-description {
+  padding: 1rem;
+}
+#tab-reviews {
+  padding: 1rem;
+}
+/*--review textarea--*/
+textarea#comment {
+  border: 1px solid gainsboro;
+  border-radius: 4px;
+}
+/*--Image corner--*/
+figure.woocommerce-product-gallery__wrapper > div {
+  border-radius: 4px 0 10px 0;
+}
 /*--------------------------------------------------------------
 ## Elementor
 --------------------------------------------------------------*/
@@ -1227,13 +1265,13 @@ body:not(.theme-preset-active) footer#colophon {
 ## Test div
 ---------------------*/
 
-.red-square-150 {
+.square-150 {
   width: 150px;
   height: 150px;
   background-color: red;
 
 }
-.gray-rectangle-800 {
+.rectangle-800 {
   width: 800px;
   height:90px;
   background-color: gray;

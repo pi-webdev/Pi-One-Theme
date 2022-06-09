@@ -17,6 +17,7 @@ get_header(); ?>
   <div class="container">
 	<div class="row">
 	  <main class="col">
+		  <div class="card p-4 mb-4 shadow">
 			<?php
 			while ( have_posts() ) : the_post();
 
@@ -29,6 +30,7 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
+			</div>
 	  </main>
 			<?php get_sidebar( );?>
 	</div>
