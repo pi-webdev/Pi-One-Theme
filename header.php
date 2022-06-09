@@ -62,7 +62,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                          'container_id'    => false,
                          'container_class' => false,
                           'menu_id'         => false,
-                          'menu_class'      => ' nav navbar-nav mx-auto pr-5',
+                          'menu_class'      => 'nav navbar-nav',
                           'depth'           => 3,
                            'fallback_cb'     => 'wp_bootstrap_navwalker::fallback',
                           'walker'          => new WP_Bootstrap_Navwalker()
