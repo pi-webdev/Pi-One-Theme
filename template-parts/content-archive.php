@@ -2,9 +2,9 @@
   <div class="card shadow">
 	  <figure class=" post thumbnail col-md-4 m-0 p-0">
                               <?php if ( has_post_thumbnail() ): ?>
-                              <?php the_post_thumbnail('medium', array ('class' => 'post-thumbnail-img img-fluid'));?>
+                              <?php the_post_thumbnail('medium', array ('class' => 'post-thumbnail-img rounded img-fluid'));?>
                               <?php else: ?>
-                              <img src="https://picsum.photos/300/300"  class="post-thumbnail-img img-fluid" alt="postthumbnail">
+                              <img src="https://picsum.photos/300/300"  class="post-thumbnail-img rounded img-fluid" alt="postthumbnail">
                               <?php endif;?>
 							  </figure> <!--postthumbnail_if not use picsum photo thumbnail-->
 							  <div class="card-body">
