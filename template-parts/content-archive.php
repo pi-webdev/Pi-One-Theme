@@ -1,6 +1,6 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> class="blog-post border-bottom pb-4 mb-4">
   <div class="card shadow">
-	  <figure class=" post-thumbnail col-md-4 m-0 p-0">
+	  <figure class=" post-thumbnail p-3">
                               <?php if ( has_post_thumbnail() ): ?>
                               <?php the_post_thumbnail('medium', array ('class' => 'post-thumbnail-img rounded img-fluid'));?>
                               <?php else: ?>
