@@ -13,8 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 get_header('blanc'); ?>
 
-
-<?php get_template_part( 'top-widgets') ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 			<section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 						

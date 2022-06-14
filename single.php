@@ -17,6 +17,7 @@ get_header('blog'); ?>
   <div class="container">
 	<div class="row">
 	  <div class="col">
+	  <?php get_template_part( 'top-widgets') ?>
 		  <div class="card p-4 mb-4 shadow">
 		<?php
 		while ( have_posts() ) : the_post();
