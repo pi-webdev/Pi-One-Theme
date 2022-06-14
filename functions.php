@@ -167,6 +167,16 @@ function pione_theme_widgets_init() {
         'before_title'  => '<h3 class="widget-title">',
         'after_title'   => '</h3>',
     ) );
+	//Single page sidebar//
+	register_sidebar( array(
+        'name'          => esc_html__( 'Single Page Sidebar', 'pi-one' ),
+        'id'            => 'page',
+        'description'   => esc_html__( 'Add widgets here.', 'pi-one' ),
+        'before_widget' => '<div id="%1$s" class="widget %2$s card p-3 mb-4 shadow">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ) );
 	//top-menu//
 	register_sidebar( array(
         'name'          => esc_html__( 'Above top menu left area', 'pi-one' ),
