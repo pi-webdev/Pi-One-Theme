@@ -71,7 +71,7 @@ function pione_customize_register( $wp_customize ) {
 
     //theme option end
 
-    $wp_customize->add_setting( 'blog_theme_option_setting', array(
+    /*$wp_customize->add_setting( 'blog_theme_option_setting', array(
         'default'   => 'default',
         'type'       => 'theme_mod',
         'capability' => 'edit_theme_options',
@@ -96,7 +96,7 @@ function pione_customize_register( $wp_customize ) {
         'type'       => 'theme_mod',
         'capability' => 'edit_theme_options',
         'sanitize_callback' => 'wp_filter_nohtml_kses',
-    ) );
+    ) );*/
     //blog header background settings
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'preset_style_setting', array(
         'label' => __( 'Typography', 'pi-one' ),

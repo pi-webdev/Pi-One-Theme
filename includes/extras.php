@@ -122,7 +122,7 @@ function is_theme_preset_active() {
 
 //blog header color
 
-function pione_theme_blogheadercolor_class() {
+/*function pione_theme_blogheadercolor_class() {
     switch (get_theme_mod( 'blog_theme_option_setting' )) {
         case "transparent":
             return 'navbar-dark bg-primary';
