@@ -37,7 +37,7 @@ add_theme_support( 'wc-product-gallery-slider' );
 /** WooCommerce - Modify each individual input type $args defaults /**
 /*********************************************************************************************/
 
-add_filter('woocommerce_form_field_args','wc_form_field_args',10,3);
+/*add_filter('woocommerce_form_field_args','wc_form_field_args',10,3);
 
 // Add the cart link to menu
 function pione_add_menu_cart_item_to_menus( $items, $args ) {
@@ -100,7 +100,7 @@ function pione_main_menu_cart_link_fragments( $fragments ) {
 	return $fragments;
 }
 add_filter( 'add_to_cart_fragments', 'pione_main_menu_cart_link_fragments' );
-//endwoocommerce cart
+//endwoocommerce cart*/
 
 
 function wc_form_field_args( $args, $key, $value = null ) {
