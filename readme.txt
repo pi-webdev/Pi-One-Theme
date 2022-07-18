@@ -57,6 +57,10 @@ This theme will be an active project which we will update from time to time. Che
 
 == Changelog ==
 
+= 1.4 - 16.07.2022 =
+* Delete depricated Ajax cart in header menu 
+* Add Block theme functions support
+
 = 1.3 - 24.08.2021 =
 * Add OFF-Canvas mobile menu
 

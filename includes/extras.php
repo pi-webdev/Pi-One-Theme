@@ -119,23 +119,3 @@ function is_theme_preset_active() {
         return true;
     }
 }
-
-//blog header color
-
-/*function pione_theme_blogheadercolor_class() {
-    switch (get_theme_mod( 'blog_theme_option_setting' )) {
-        case "transparent":
-            return 'navbar-dark bg-primary';
-            break;
-        case "dark":
-            return 'navbar-light bg-dark';
-            break;
-        case "light":
-            return 'navbar-light bg-light';
-            break;
-        default:
-            return 'navbar-dark bg-transparent';
-        case "danger":
-            return 'navbar-dark bg-danger';    
-    }
-}
