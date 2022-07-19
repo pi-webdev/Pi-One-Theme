@@ -419,26 +419,7 @@ function pione_one_nav_menu_args( $args ) {
 }
 add_filter( 'wp_nav_menu_args', 'pione_one_nav_menu_args' );
 
-/* End of custom navigation Walker*/
-//custom functions//
 
-/*This filter change default Title*/
-
-/*add_filter( 'get_the_archive_title', function( $title ) {
-    if ( is_category( 'CATEGORY NAME' ) ) {
-        $title = 'YOUR CUSTOM TITLE';
-    }
-
-    return $title;
-}, 50 );*/
-
-/*add_filter( 'get_the_archive_title', function( $title ) {
-    if ( is_home() ) {
-        $title = 'E-komercijas Blogs';
-    }
-
-    return $title;
-}, 50 );
 
 
 
