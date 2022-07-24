@@ -69,35 +69,6 @@ function pione_customize_register( $wp_customize ) {
         )
     ) ) );
 
-    //theme option end
-
-    /*$wp_customize->add_setting( 'blog_theme_option_setting', array(
-        'default'   => 'default',
-        'type'       => 'theme_mod',
-        'capability' => 'edit_theme_options',
-        'sanitize_callback' => 'wp_filter_nohtml_kses',
-    ) );
-    $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'blog_theme_option_setting', array(
-        'label' => __( 'Blog header color option', 'pi-one' ),
-        'section'    => 'typography',
-        'settings'   => 'blog_theme_option_setting',
-        'type'    => 'select',
-        'choices' => array(
-            'transparent' => 'Transparent',
-            'primary' => 'Primary',
-            'dark' => 'Dark',
-            'light' => 'Light',
-            'danger' => 'Danger',
-        )
-    ) ) );
-
-    $wp_customize->add_setting( 'preset_style_setting', array(
-        'default'   => 'default',
-        'type'       => 'theme_mod',
-        'capability' => 'edit_theme_options',
-        'sanitize_callback' => 'wp_filter_nohtml_kses',
-    ) );*/
-    //blog header background settings
     $wp_customize->add_control( new WP_Customize_Control($wp_customize, 'preset_style_setting', array(
         'label' => __( 'Typography', 'pi-one' ),
         'section'    => 'typography',
@@ -125,7 +96,7 @@ function pione_customize_register( $wp_customize ) {
         )
     );
 
-    // Bootstrap and Fontawesome Option
+    // Bootstrap Option
     $wp_customize->add_setting( 'cdn_assets_setting', array(
         'default' => __( 'no','pi-one' ),
         'sanitize_callback' => 'wp_filter_nohtml_kses',
