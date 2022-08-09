@@ -344,7 +344,7 @@ wp_script_add_data( 'html5hiv', 'conditional', 'lt IE 9' );
 
 // load bootstrap js
 if ( get_theme_mod( 'cdn_assets_setting' ) === 'yes' ) {
-	wp_enqueue_script('pi-one-bootstrapjscdn', 'net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js', array(), '', true );
+	wp_enqueue_script('pi-one-bootstrapjscdn', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js', array(), '', true );
 } else {
 	wp_enqueue_script('pi-one-bootstrap', get_template_directory_uri() . '/includes/js/bootstrap.bundle.min.js', array(), '', true );
 
