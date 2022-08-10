@@ -1222,14 +1222,6 @@ body:not(.theme-preset-active) footer#colophon {
   position: relative;
 }
 
-.table-body {
-  color: rgb(255,255,255);
-}
-
-.table-header {
-  color: rgb(255,255,255);
-}
-
 /*--------------------------------------------------------------
 # Media Query
 --------------------------------------------------------------*/
