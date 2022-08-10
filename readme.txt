@@ -2,7 +2,7 @@
 
 Tags: blog, custom-menu, featured-images, threaded-comments, translation-ready, right-sidebar, custom-background, e-commerce ready, theme-options, sticky-post, full-width-template, blanc page template
 Requires at least: 5.3
-Tested up to: 5.7
+Tested up to: 6.01
 
 Copyright (c) 2021 by Pi-WEB (https://piunoff.eu/)
 This Theme is distributed under the terms of the GNU GPL.
@@ -26,8 +26,8 @@ Page templates:
 * Canvas – blank page template 
 
 Other features:
-* Built in Bootstrap v4.6.0
-* Bootstrap icon font v1.5.0
+* Built in Bootstrap v4.6.2
+* Bootstrap icon font v1.9.1
 * Widgetized header and footer area
 * WooCommerce ready
 * Compatible with Contact Form 7
